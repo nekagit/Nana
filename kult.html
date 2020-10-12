@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+ <html lang="de">
+   <head>
+     <meta charset="utf-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+     <link rel="stylesheet" type="text/css" href="index.css" />
+     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+     <title>Stankovic Dragoslava</title>
+   </head>
+   <body style=" background-image: url(images/placeholders/wood-336589_1920.jpg); background-size: contain;">   
+     <header class=" container page-header pt-2">
+       <div>
+           <nav class="navbar navbar-expand-xl navbar-light container rounded" style="background-color:rgba(255, 255, 255, 0.541);box-shadow: 3px 6px 9px black;">
+             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+               <span class="navbar-toggler-icon"></span>
+             </button>
+             <a class="navbar-brand mx-auto pl-md-4 pr-md-4" href="index.html">ArtStanković</a>
+             <div class="text-center d-flex mx-auto mt-1 ml-md-2">
+               <a href="https://www.facebook.com/dragica.stankovic.90"  target="_blank" class="social-iconf d-flex flex-column justify-content-center" ><i class="fab fa-facebook-f"></i> </a> 
+               <a href="https://www.pinterest.de/dragoslavastankovic/_created/" target="_blank" class="social-iconp d-flex flex-column justify-content-center"><i class="fab fa-pinterest-p"></i></a>
+               <a href="https://www.instagram.com/stankovicdragica/" target="_blank" class="social-iconi d-flex flex-column justify-content-center" ><i class="fab fa-instagram"></i> </a> 
+               <a href="https://www.youtube.com/user/230450dragica" target="_blank" class="social-icony d-flex flex-column justify-content-center"><i class="fab fa-youtube"></i></a>
+             </div>
+             <div class="collapse navbar-collapse justify-content-end titl" id="navbarNavAltMarkup">
+               <div class="navbar-nav mx-auto">
+                 <a class="nav-item nav-link effect3" style="color:  rgb(107, 14, 14);" href="#">Kultura<span class="sr-only">(current)</span></a>
+                 <a class="nav-item nav-link effect3" style="color:  blue"  href="slike.html">Slike</a>
+                 <a class="nav-item nav-link effect3" style="color:  green"  href="index.html">Kuća</a>
+               </div>
+             </div> 
+           </nav>
+         </div>
+       </header>
+       
+      <!-- Container for the image gallery -->
+      <div class="container d-none" id="view">
+          <center><a href="#kultec"><span class="mt-3 btn mx-auto mb-4" id="zbtn" onclick="showT()">Smanjenje</span> </a></center>
+          <!-- Full-width images with number text -->
+          <div class="mySlidez">
+            <div class="numbertext titl">1 / 11</div>
+              <img src="images/placeholders/slike/11.JPG" id="slidez"  >
+          </div>
+          <div class="mySlidez">
+            <div class="numbertext titl">2 / 11</div>
+              <img src="images/placeholders/slike/25.JPG" id="slidez" >
+          </div>
+
+          <div class="mySlidez">
+            <div class="numbertext titl">3 / 11</div>
+              <img src="images/placeholders/slike/38.JPG" id="slidez" >
+          </div>
+
+          <div class="mySlidez">
+            <div class="numbertext titl">4 / 11</div>
+              <img src="images/placeholders/slike/39.JPG" id="slidez" >
+          </div>
+
+          <div class="mySlidez">
+            <div class="numbertext titl">5 / 11</div>
+              <img src="images/placeholders/slike/44.JPG" id="slidez" >
+          </div>
+
+          <div class="mySlidez">
+            <div class="numbertext titl">6 / 11</div>
+              <img src="images/placeholders/slike/46.JPG" id="slidez" >
+          </div>
+
+          <div class="mySlidez">
+            <div class="numbertext titl">7 / 11</div>
+              <img src="images/placeholders/slike/48.JPG" id="slidez" >
+          </div>
+          
+          <div class="mySlidez">
+            <div class="numbertext titl">8 / 11</div>
+              <img src="images/placeholders/slike/50.JPG" id="slidez" >
+          </div>
+          
+          <div class="mySlidez">
+            <div class="numbertext titl">9 / 11</div>
+              <img src="images/placeholders/slike/52.JPG" id="slidez" >
+          </div>
+
+          <div class="mySlidez">
+            <div class="numbertext titl">10 / 11</div>
+              <img src="images/placeholders/slike/53.JPG" id="slidez" >
+          </div>
+          
+          <div class="mySlidez">
+            <div class="numbertext titl">11 / 11</div>
+              <img src="images/placeholders/slike/60.JPG" id="slidez" >
+          </div>
+        <!-- Next and previous buttons -->
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+        <!-- Image text -->
+        <div class="caption-container">
+          <p id="caption"></p>
+        </div>
+
+        <!-- Thumbnail images -->
+        <div class="row">
+          <div class="column">
+            <img class="demo cursor" src="images/placeholders/slike/11.JPG" style="width:100%;" onclick="currentSlide(1)" alt="romantičan zalazak">
+          </div>
+          <div class="column">
+            <img class="demo cursor" src="images/placeholders/slike/25.JPG" style="width:100%;" onclick="currentSlide(2)" alt="buket srca">
+          </div>
+          <div class="column">
+            <img class="demo cursor" src="images/placeholders/slike/38.JPG" style="width:100%;" onclick="currentSlide(3)" alt="grm i lom">
+          </div>
+          <div class="column">
+            <img class="demo cursor" src= "images/placeholders/slike/39.JPG" style="width:100%;" onclick="currentSlide(4)" alt="crna reka">
+          </div>
+          <div class="column">
+            <img class="demo cursor" src="images/placeholders/slike/44.JPG" style="width:100%;" onclick="currentSlide(5)" alt="stari grad">
+          </div>
+          <div class="column">
+            <img class="demo cursor" src="images/placeholders/slike/46.JPG" style="width:100%;" onclick="currentSlide(6)" alt="daleka je srbija">
+          </div>
+          <div class="column">
+            <img class="demo cursor" src="images/placeholders/slike/48.JPG" style="width:100%;" onclick="currentSlide(7)" alt="jednom bila">
+          </div>
+          <div class="column">
+            <img class="demo cursor" src="images/placeholders/slike/50.JPG" style="width:100%;" onclick="currentSlide(8)" alt="manastir">
+          </div>
+          <div class="column">
+            <img class="demo cursor" src="images/placeholders/slike/52.JPG"style="width:100%; " onclick="currentSlide(9)" alt="lepota pod vodom">
+          </div>
+          <div class="column">
+            <img class="demo cursor" src="images/placeholders/slike/53.JPG"style="width:100%; " onclick="currentSlide(10)" alt="početak ili kraj">
+          </div>
+          <div class="column">
+            <img class="demo cursor" src="images/placeholders/slike/60.JPG" style="width:100%;" onclick="currentSlide(11)" alt="lepota">
+          </div>
+        </div>
+      </div>
+        <section>
+            <div class="section-five">
+                <div class="" id="kultec">
+                  <h2 class="text-center pb-5" style="font-family: 'Dancing Script', cursive; font-size: 4rem;">Jesen</h2>
+                  <center><a href="#view"><span class="mt-3 mb-4 btn text-center" id="zbtn" onclick="showIt()">Uveličane</span> </a></center>
+                  <div class="row mx-auto">
+                    <div id="cards" class="col-12 col-sm-6 col-lg-4 mx-auto d-flex align-items-stretch">
+                      <div class="card mb-4" id="karte" style="border: 1px solid black;">
+                        <a href="#view"><img class="card-img-top"  width="260px"  height="220px"  src="images/placeholders/slike/11.JPG" onclick="currentSlidz(1)"></a>
+                        <div class="card-body" style="background-color: rgba(0, 0, 0, 0.829); color: white;">
+                          <h5 class="card-title text-center">romantičan zalazak</h5>
+                          <h6 class="card-subtitle text-center">#11</h6>
+                        </div>
+                      </div>
+                    </div>
+                    <div id="cards" class="col-12 col-sm-6 col-lg-4 mx-auto d-flex align-items-stretch">
+                      <div class="card mb-4" id="karte" style="border: 1px solid black;">
+                        <a href="#view"><img class="card-img-top"  width="260px"  height="220px" src="images/placeholders/slike/25.JPG" onclick="currentSlidz(2)"></a>
+                        <div class="card-body" style="background-color: rgba(0, 0, 0, 0.829); color: white;">
+                          <h5 class="card-title text-center">buket srca</h5>
+                          <h6 class="card-subtitle text-center">#25</h6>
+                        </div>
+                      </div>
+                    </div>
+                    <div id="cards" class="col-12 col-sm-6 col-lg-4 mx-auto d-flex align-items-stretch">
+                      <div class="card mb-4" id="karte" style="border: 1px solid black;">
+                        <a href="#view"><img class="card-img-top"  width="260px"  height="220px" src="images/placeholders/slike/38.JPG" onclick="currentSlidz(3)"></a>
+                        <div class="card-body" style="background-color: rgba(0, 0, 0, 0.829); color: white;">
+                          <h5 class="card-title text-center">grm i lom</h5>
+                          <h6 class="card-subtitle text-center">#38</h6>
+                        </div>
+                      </div>
+                    </div>
+                    <div id="cards" class="col-12 col-sm-6 col-lg-4 mx-auto d-flex align-items-stretch">
+                        <div class="card mb-4" id="karte" style="border: 1px solid black;">
+                          <a href="#view"><img class="card-img-top"  width="260px"  height="220px" src="images/placeholders/slike/39.JPG" onclick="currentSlidz(4)"></a>
+                          <div class="card-body" style="background-color: rgba(0, 0, 0, 0.829); color: white;">
+                            <h5 class="card-title text-center">crna reka</h5>
+                            <h6 class="card-subtitle text-center">#39</h6>
+                          </div>
+                        </div>
+                      </div>
+                      <div id="cards" class="col-12 col-sm-6 col-lg-4 mx-auto d-flex align-items-stretch">
+                        <div class="card mb-4" id="karte" style="border: 1px solid black;">
+                          <a href="#view"><img class="card-img-top"  width="260px"  height="220px" src="images/placeholders/slike/44.JPG" onclick="currentSlidz(5)"></a>
+                          <div class="card-body" style="background-color: rgba(0, 0, 0, 0.829); color: white;">
+                            <h5 class="card-title text-center">stari grad</h5>
+                            <h6 class="card-subtitle text-center">#44</h6>
+                          </div>
+                        </div>
+                      </div>
+                      <div id="cards" class="col-12 col-sm-6 col-lg-4 mx-auto d-flex align-items-stretch">
+                        <div class="card mb-4" id="karte" style="border: 1px solid black;">
+                          <a href="#view"><img class="card-img-top"  width="260px"  height="220px" src="images/placeholders/slike/46.JPG" onclick="currentSlidz(6)"></a>
+                          <div class="card-body" style="background-color: rgba(0, 0, 0, 0.829); color: white;">
+                            <h5 class="card-title text-center">daleka je srbija</h5>
+                            <h6 class="card-subtitle text-center">#46</h6>
+                          </div>
+                        </div>
+                      </div>
+                  </div>
+                  <div class="row mx-auto">
+                      <div id="cards" class="col-12 col-sm-6 col-lg-4 mx-auto d-flex align-items-stretch">
+                        <div class="card mb-4" id="karte"style="border: 1px solid black;">
+                          <a href="#view"><img class="card-img-top"  width="260px"  height="220px" src="images/placeholders/slike/48.JPG" onclick="currentSlidz(7)"></a>
+                          <div class="card-body" style="background-color: rgba(0, 0, 0, 0.829); color: white;">
+                            <h5 class="card-title text-center">jednom bila</h5>
+                            <h6 class="card-subtitle text-center">#48</h6>
+                          </div>
+                        </div>
+                      </div>
+                      <div id="cards" class="col-12 col-sm-6 col-lg-4 mx-auto d-flex align-items-stretch">
+                        <div class="card mb-4" id="karte" style="border: 1px solid black;">
+                          <a href="#view"><img class="card-img-top"   width="260px"  height="220px" src="images/placeholders/slike/50.JPG" onclick="currentSlidz(8)"></a>
+                          <div class="card-body" style="background-color: rgba(0, 0, 0, 0.829); color: white;">
+                            <h5 class="card-title text-center">manastir</h5>
+                            <h6 class="card-subtitle text-center">#50</h6>
+                          </div>
+                        </div>
+                      </div>
+                      <div id="cards" class="col-12 col-sm-6 col-lg-4 mx-auto d-flex align-items-stretch">
+                        <div class="card mb-4" id="karte" style="border: 1px solid black;">
+                          <a href="#view"><img class="card-img-top"  width="260px"  height="220px" src="images/placeholders/slike/52.JPG" onclick="currentSlidz(9)"></a>
+                          <div class="card-body"  style="background-color: rgba(0, 0, 0, 0.829); color: white;">
+                            <h5 class="card-title text-center">lepota pod vodom</h5>
+                            <h6 class="card-subtitle text-center">#52</h6>
+                          </div>
+                        </div>
+                    </div> 
+                    <div id="cards" class="col-12 col-sm-6 col-lg-4 mx-auto d-flex align-items-stretch">
+                      <div class="card mb-4" id="karte" style="border: 1px solid black;">
+                        <a href="#view"><img class="card-img-top"  width="260px"  height="220px" src="images/placeholders/slike/53.JPG" onclick="currentSlidz(10)"></a>
+                        <div class="card-body"  style="background-color: rgba(0, 0, 0, 0.829); color: white;">
+                          <h5 class="card-title text-center">početak ili kraj</h5>
+                          <h6 class="card-subtitle text-center">#53</h6>
+                        </div>
+                      </div>
+                  </div>
+                    <div id="cards" class="col-12 col-sm-6 col-lg-4 mx-auto d-flex align-items-stretch">
+                      <div class="card mb-4" id="karte" style="border: 1px solid black;">
+                        <a href="#view"><img class="card-img-top"   width="260px"  height="220px" src="images/placeholders/slike/60.JPG" onclick="currentSlidz(11)"></a>
+                        <div class="card-body" style="background-color: rgba(0, 0, 0, 0.829); color: white;">
+                          <h5 class="card-title text-center">lepota</h5>
+                          <h6 class="card-subtitle text-center">#60</h6>
+                        </div>
+                      </div>
+                    </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+        </section>
+        
+       <div class="grenze mb-3"></div>
+
+       <section class="kontakt" id="kontakt">
+        <div class="section-four container" >
+          <div class="kontaktText">
+            <h2 class="text-center">Svi radovi se prodaju!<br></h2> 
+            <h4 class="text-center">Upisite broj slike pod naslovom "Razlog/ID od slike*" </h4>
+            <center><img src="images/placeholders/metodos-pago-oq36ujmvv9dvutisrn3q4m01fbiqwqrp5se6xw273y (1).png"></center>
+          </div>
+          <div class="kontaktTitel">
+            <h1 class="text-center" style="font-size:3.3rem; ">Kontakt</h3>
+            <h3 class="text-center pb-4">Ne smara niko, samo piši bre!</h3>
+            <form method="POST" name="contact" data-netlify="true">
+              <div class="row mt-2">
+                <div class="col-12 col-sm-6 ">
+                  <input class="form-control mb-3" type="text" name="name" placeholder="Ime *" required />
+                  <input class="form-control mb-3" type="email" name="email" placeholder="E-Mail *" required />
+                  <input class="form-control mb-3 mb-sm-0" type="text" name="subject" placeholder="Razlog/ID od slike *" required />
+                </div>
+                <div class="col-12 col-sm-6">
+                  <textarea class="form-control contact-message" name="message" placeholder="Poruka *" required></textarea>
+                </div>
+              </div>
+              <div class="text-center">
+                <button type="submit" class="mt-4 mb-1 btn btn-primary">pošalji</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </section>
+      
+      <footer class="footer pt-md-3 pb-md-2">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-12 col-md-4">
+              <p class="mt-3 text-center" style="font-size: 1.3rem;">© site by Nenad Kalicanin</p>
+            </div>
+            
+          </div>
+        </div>
+      </footer>
+ 
+      <i class="fas fa-air-freshener" id="myBtn" onclick="topFunction()"></i>
+      <script>
+        mybutton = document.getElementById("myBtn");
+        window.onscroll = function() {scrollFunction()};
+        function scrollFunction() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+              mybutton.style.display = "block";
+            } else {
+              mybutton.style.display = "none";
+            }
+                }
+            function topFunction() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+          }
+
+      </script>
+      <script>
+        var slideIndex = 1;
+        showSlides(slideIndex);
+        
+        function plusSlides(n) {
+          showSlides(slideIndex += n);
+        }
+        
+        function currentSlide(n) {
+          showSlides(slideIndex = n);
+        }
+        
+        function showSlides(n) {
+          var i;
+          var slides = document.getElementsByClassName("mySlidez");
+          var dots = document.getElementsByClassName("demo");
+          var captionText = document.getElementById("caption");
+          if (n > slides.length) {slideIndex = 1}
+          if (n < 1) {slideIndex = slides.length}
+          for (i = 0; i < slides.length; i++) {
+              slides[i].style.display = "none";
+          }
+          for (i = 0; i < dots.length; i++) {
+              dots[i].className = dots[i].className.replace(" active", "");
+          }
+          slides[slideIndex-1].style.display = "block";
+          dots[slideIndex-1].className += " active";
+          captionText.innerHTML = dots[slideIndex-1].alt;
+        }
+        </script>
+        <script>
+          function showIt() {
+            document.getElementById("view").classList.remove('d-none'); 
+            document.getElementById("kultec").classList.add('d-none');
+
+          }
+          function showT() {
+            document.getElementById("view").classList.add('d-none'); 
+            document.getElementById("kultec").classList.remove('d-none');
+
+          }
+          
+        </script>
+        <script>
+          var slideIndex = 1;
+          showSlidez(slideIndex);
+          
+          function plusSlides(n) {
+            showSlidez(slideIndex += n);
+          }
+          
+          function currentSlidz(n) {
+            showSlidez(slideIndex = n);
+          }
+          
+          function showSlidez(n) {
+            document.getElementById("view").classList.remove('d-none'); 
+            document.getElementById("kultec").classList.add('d-none');
+            var i;
+            var slides = document.getElementsByClassName("mySlidez");
+            var dots = document.getElementsByClassName("demo");
+            var captionText = document.getElementById("caption");
+            if (n > slides.length) {slideIndex = 1}
+            if (n < 1) {slideIndex = slides.length}
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+            }
+            slides[slideIndex-1].style.display = "block";
+            dots[slideIndex-1].className += " active";
+            captionText.innerHTML = dots[slideIndex-1].alt;
+          }
+          </script>
+               
+     <script type="text/javascript" src="lib/jquery/jquery-3.3.1.min.js"></script>
+     <script type="text/javascript" src="lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+     <script type="text/javascript" src="index.js"></script>
+   </body>
+ </html>

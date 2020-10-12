@@ -1,0 +1,663 @@
+$primary: rgb(134, 25, 25);
+$card-color: rgba(238, 160, 116, 0.89);
+$header-jumbotron-height: 650px;  
+$section-padding: 220px;
+$box-shadow: 5px 10px 18px #000000;
+@import "lib/bootstrap/scss/bootstrap";
+
+
+#myBtn {
+  display: none; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 20px; /* Place the button at the bottom of the page */
+  right: 30px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color: rgba(27, 65, 13, 0.733); /* Set a background color */
+  color: white; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 10px; /* Some padding */
+  border-radius: 10px; /* Rounded corners */
+  font-size: 21px; /* Increase font size */
+}
+
+/* -------------------------------------------------------------------------------------------------------------- */
+
+.page-header {
+  margin-top: 33px;
+  background-color: $primary;
+  padding: 21px 21px 11px 21px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  box-shadow: $box-shadow;
+  background-position: 50%;
+  border: 1px solid black;
+  
+}
+.page-headerr {
+  margin-top: 33px;
+  padding: 21px 21px 11px 21px;
+  background-image: url("images/placeholders/IMG_20200305_155834.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  box-shadow: $box-shadow;
+  background-position: 50%;
+  border: 1px solid black;
+  
+}
+
+.navbar-light .navbar-brand {
+  font-size: 2.8rem; 
+  font-family: 'Dancing Script', cursive;
+  &:hover {
+    color: rgb(255, 255, 255);
+  }
+}
+
+.nav-link{
+  font-size: 1.3rem;
+}
+
+a, a > span {
+  position: relative;
+  color: inherit;
+  text-decoration: none;
+  line-height: 24px;
+}
+a:before, a:after, a > span:before, a > span:after {
+  content: '';
+  position: absolute;
+  transition: transform .4s ease;
+}
+
+.effect3 {
+  display: inline-block;
+  padding-top: 10px;
+  padding-bottom: 5px;
+  overflow: hidden;
+ 
+}
+.effect3:before {
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 2px;
+  background: rgba(146, 31, 56, 0.87);
+  transform: translateX(-100%);
+}
+.effect3:hover:before {
+  transform: translateX(0);
+}
+
+.header-jumbotron {
+  background-color: transparent;
+  padding: 0px;
+  margin-bottom: 0px;
+  height: $header-jumbotron-height;
+
+  @include media-breakpoint-up(sm) {
+    height: $header-jumbotron-height + 50px;
+  }
+  @include media-breakpoint-up(md) {
+    height: $header-jumbotron-height + 100px;
+  }
+  @include media-breakpoint-up(lg) {
+    height: $header-jumbotron-height + 150px;
+  }
+
+  h2 {
+    font-style: italic;
+    color: rgb(0, 0, 0);
+    font-family: 'Dancing Script', cursive;
+    font-size: 5rem;
+  }
+  h1 {
+    color: rgb(0, 0, 0);
+    font-family: 'Dancing Script', cursive;
+    font-size: 5rem;
+  }
+}
+
+.social-iconf {
+  color: black;
+  border: 2.5px solid rgb(0, 0, 0);
+  border-radius: 50%;
+  font-size: 1.2rem;
+  width: 2.1rem;
+  height: 2.1rem;
+  margin: 0.4rem 0.33rem 0.33rem 0.33rem;
+  box-shadow: $box-shadow;
+
+
+  &:hover {
+    color: rgb(255, 255, 255);
+    background-color: rgb(41,72,125);
+    text-decoration: none; 
+  }
+} 
+
+.social-iconp {
+  color: black;
+  border: 2.5px solid rgb(0, 0, 0);
+  border-radius: 50%;
+  font-size: 1.2rem;
+  width: 2.1rem;
+  height: 2.1rem;
+  margin: 0.4rem 0.33rem 0.33rem 0.33rem;
+  box-shadow: $box-shadow;
+
+  &:hover {
+    color: rgb(255, 255, 255);
+    background-color: rgb(230,0,35);
+    text-decoration: none; 
+  }
+} 
+
+.social-iconi {
+  color: black;
+  border: 2.5px solid rgb(0, 0, 0);
+  border-radius: 50%;
+  font-size: 1.2rem;
+  width: 2.1rem;
+  height: 2.1rem;
+  margin: 0.4rem 0.33rem 0.33rem 0.33rem;
+  box-shadow: $box-shadow;
+
+  &:hover {
+    color: rgb(255, 255, 255);
+    background-color: rgb(212,44,121);
+    text-decoration: none; 
+  } 
+} 
+
+.social-icony {
+  color: black;
+  border: 2.5px solid rgb(0, 0, 0);
+  border-radius: 50%;
+  font-size: 1.2rem;
+  width: 2.1rem;
+  height: 2.1rem;
+  margin: 0.4rem 0.33rem 0.33rem 0.33rem;
+  box-shadow:  $box-shadow;
+
+  &:hover {
+    color: rgb(255, 255, 255);
+    background-color: rgb(255,0,0);
+    text-decoration: none; 
+  }
+} 
+
+
+/* -------------------------------------------------------------------------------------------------------------- */
+
+.section-one { 
+  padding-top: $section-padding + 150px;
+  padding-bottom: $section-padding + 100px;
+  h2 {
+  font-family: 'Dancing Script', cursive; 
+  font-size: 2.9rem;
+  }  
+}
+
+.reihe {
+  background-color: $card-color; 
+  border: 1px solid $primary;
+  box-shadow: $box-shadow;
+}
+
+.mySlides{
+  animation: fading 9s infinite;
+  
+}
+
+.fenster {
+  width: 100%;
+  max-height: 400px; 
+  height: 400px;
+  box-shadow: $box-shadow;
+}
+
+@keyframes fading{
+  0%{opacity:0}
+  50%{opacity:1}
+  100%{opacity:0}
+}
+
+.round {
+  border: 1px solid $primary;
+  width: fit-content;
+}
+
+
+.grenze { 
+  height: 15px;
+  background-color: $primary;
+  border-radius: 41%;
+  box-shadow: $box-shadow;
+  
+}
+
+/* -------------------------------------------------------------------------------------------------------------- */
+
+.section-two {
+  padding-top: $section-padding + 50px;
+  padding-bottom: $section-padding + 100px;
+
+  h1 {
+    font-family: 'Dancing Script', cursive;
+      }
+}
+
+.profilB {
+  float: right;
+  box-shadow: $box-shadow;
+  border: 1px solid $primary;
+}
+
+.profil {
+  display: flex;
+  flex-direction: column;
+  float: right;
+  margin: 0 0 0 21px;
+}
+
+.titl {
+  text-shadow: 1px 1px 1px; 
+}
+
+.biografija {
+  background-color: $card-color; 
+  border: 1px solid $primary;
+  width: 100%;
+  box-shadow: $box-shadow;
+}
+
+/* -------------------------------------------------------------------------------------------------------------- */
+.section-three{
+  padding-top: $section-padding + 50px;
+  padding-bottom: $section-padding + 100px;
+
+  h1 {
+    font-family: 'Dancing Script', cursive;
+      }
+}
+
+.title2 {
+  padding-right: 0px;
+
+  @include media-breakpoint-up(sm) {
+    padding-right: 0px;
+  }
+  @include media-breakpoint-up(md) {
+    padding-right: 100px;
+  }
+  @include media-breakpoint-up(lg) {
+    padding-right: 133px;
+  }
+}
+
+#myVideo { 
+  width: 100%;
+  height: auto;
+}
+
+#myBt {
+  border-radius: 50%; 
+  width: 60px;
+}
+
+.bx {
+  background-color: $card-color;
+  padding: 33px;
+  box-shadow: $box-shadow; 
+  border: 1px solid $primary;
+}
+
+/* -------------------------------------------------------------------------------------------------------------- */
+
+.section-four{
+  padding-top: $section-padding;
+  padding-bottom: 50px;
+
+  h1 {
+    margin-top: 80px;
+    font-family: 'Dancing Script', cursive;
+    }
+  h3 {
+    font-family: 'Dancing Script', cursive;
+    color:  rgb(87, 15, 15);
+  }
+}
+
+.kontakt {
+
+.contact-message {
+  height: 6rem;
+
+    @include media-breakpoint-up(sm) {
+      height: 100%;
+    }
+  }
+}
+
+.kontaktText {
+  background-color:rgba(255, 255, 255, 0.87);
+  box-shadow: $box-shadow;
+  padding: 5px 5px 5px 5px;
+}
+
+.kontaktTitel {
+  background-color:$card-color;
+  padding: 15px 15px 15px 15px;
+  box-shadow: $box-shadow;
+  margin-top: 133px;
+  padding-top: 0px;
+  border: 1px solid $primary;
+}
+
+/* -------------------------------------------------------------------------------------------------------------- */
+
+.section-five {
+  padding-top: $section-padding;
+  padding-bottom: $section-padding - 100px;
+  h1 {
+    font-family: 'Dancing Script', cursive;
+    color:  rgb(128, 23, 23);
+    font-size: 4rem;
+    
+  }
+}
+
+.prolece {
+  background-image: url("images/placeholders/prolece.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 70%;
+  height: 111px;
+  padding: 21px 21px 21px 21px;
+  margin-top: 77px;
+  margin-bottom: 21px;
+  border: 1px solid black;
+  border-radius: 50%;
+  box-shadow: $box-shadow;
+}
+
+.jesen {
+  background-image: url("images/placeholders/jesen.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 70%;
+  height: 111px;
+  padding: 21px 21px 21px 21px;
+  margin-top: 77px;
+  margin-bottom: 21px;
+  border: 1px solid black;
+  border-radius: 50%;
+  box-shadow: $box-shadow;
+}
+
+.abstrakcije {
+  background-image: url("images/placeholders/abstr.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 70%;
+  height: 111px;
+  padding: 21px 21px 21px 21px;
+  margin-top: 77px;
+  margin-bottom: 21px;
+  border: 1px solid black;
+  border-radius: 50%;
+  box-shadow: $box-shadow;
+}
+
+.zima {
+  background-image: url("images/placeholders/zima.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 70%;
+  height: 111px;
+  padding: 21px 21px 21px 21px;
+  margin-top: 77px;
+  margin-bottom: 21px;
+  border: 1px solid black;
+  border-radius: 50%;
+  box-shadow: $box-shadow;
+}
+
+
+.kultura {
+  background-image: url("images/placeholders/kult.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 70%;
+  height: 111px;
+  padding: 21px 21px 21px 21px;
+  margin-top: 77px;
+  margin-bottom: 21px;
+  border: 1px solid black;
+  border-radius: 50%;
+  box-shadow: $box-shadow;
+}
+
+.titlovi {
+  color: white;
+  font-size: 2.5rem;
+  font-family: 'Dancing Script', cursive;
+  &:hover {
+    color: red;
+  }
+  text-shadow: 1px 1px 1px; 
+}
+
+#zadnji {
+  background-color:rgba(0, 0, 0, 0.822); 
+  padding-top: 50px;
+  margin-left: 33px;
+  margin-right: 33px;
+  border: 1px solid $primary;
+  box-shadow: $box-shadow;
+}
+
+/* -------------------------------------------------------------------------------------------------------------- */
+
+#prolec {
+  background-color:rgba(0, 0, 0, 0.822); 
+  color: white;
+  padding-top: 50px;
+  margin-left: 33px;
+  margin-right: 33px;
+  border: 1px solid $primary;
+  box-shadow: $box-shadow;
+}
+
+#jesec {
+  background-color:rgba(0, 0, 0, 0.822); 
+  color: white;
+  padding-top: 50px;
+  margin-left: 33px;
+  margin-right: 33px;
+  border: 1px solid $primary;
+  box-shadow: $box-shadow;
+}
+
+#absec {
+  background-color:rgba(0, 0, 0, 0.822); 
+  color: white;
+  padding-top: 50px;
+  margin-left: 33px;
+  margin-right: 33px;
+  border: 1px solid $primary;
+  box-shadow: $box-shadow;
+}
+
+#kultec {
+  background-color:rgba(0, 0, 0, 0.822); 
+  color: white;
+  padding-top: 50px;
+  margin-left: 33px;
+  margin-right: 33px;
+  border: 1px solid $primary;
+  box-shadow: $box-shadow;
+}
+
+#zimec {
+  background-color:rgba(0, 0, 0, 0.822); 
+  color: white;
+  padding-top: 50px;
+  margin-left: 33px;
+  margin-right: 33px;
+  border: 1px solid $primary;
+  box-shadow: $box-shadow;
+}
+
+#karte {
+  border: 1px solid black;
+}
+
+#cards {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  @include media-breakpoint-up(md) {
+    padding: 50px 25px 50px 25px; 
+  }
+  @include media-breakpoint-up(xl) {
+    padding: 50px 50px 50px 50px; 
+  }
+  @media (min-width: 1420px){
+    padding: 50px 100px 50px 100px; 
+  }
+  @media (min-width: 1600px){
+    padding: 50px 135px 50px 135px; 
+  }
+  cursor: pointer;
+}
+
+#zbtn {
+  background-color: black;
+  color:white; 
+  padding: 10xp 10px 10px 10px;
+  font-size:1.4rem;
+  &:hover {
+    background-color: white;
+    color:black;
+  }
+}
+
+.card-body {
+  background-color: white;
+}
+
+/* -------------------------------------------------------------------------------------------------------------- */
+* {
+  box-sizing: border-box;
+}
+
+#view {
+  margin-top: 222px;
+}
+
+#slidez {
+  width: 100%;
+}
+
+img {
+  vertical-align: middle;
+}
+
+/* Position the image container (needed to position the left and right arrows) */
+.container {
+  position: relative;
+}
+
+/* Hide the images by default */
+.mySlidez {
+  display: none;
+  height: auto;
+}
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+  
+  cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #000000;
+  font-size: 2rem;
+  padding: 8px 31px 10px 0;
+  position: absolute;
+  top: 0;
+}
+
+/* Container for image text */
+.caption-container {
+  text-align: center;
+  background-color: #222;
+  padding: 2px 16px;
+  color: white;
+  font-family: 'Dancing Script', cursive;
+  font-size:1.4rem;
+  @include media-breakpoint-up(md) {
+    font-size:2.1rem;
+  }
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Six columns side by side */
+.column {
+  float: left;
+  width: 16.66%;
+}
+
+/* Add a transparency effect for thumnbail images */
+.demo {
+  opacity: 0.6;
+  height: 88px;
+  @include media-breakpoint-up(md) {
+    height: 150px;
+  }
+
+}
+
+.active,
+.demo:hover {
+  
+  opacity: 1;
+}
