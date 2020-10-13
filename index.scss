@@ -534,18 +534,46 @@ a:before, a:after, a > span:before, a > span:after {
 }
 
 #zbtn {
-  background-color: black;
+  background-color: rgba(0, 0, 0, 0.727);
   color:white; 
-  padding: 10xp 10px 10px 10px;
-  font-size:1.4rem;
+  padding: 7xp;
+  margin: 21px;
+  font-size:1.3rem;
   &:hover {
     background-color: white;
     color:black;
   }
 }
 
+#zbtN {
+  background-color: rgba(0, 0, 0, 0.727);
+  color:white; 
+  padding: 7xp;
+  margin: 21px;
+  font-size:1.3rem;
+  &:hover {
+    background-color: white;
+    color:black;
+  }
+}
+
+
 .card-body {
   background-color: white;
+}
+
+#daten {
+  margin-top: 200px;
+  margin-bottom: 33px;
+  background-color:rgba(0, 0, 0, 0.659);
+  padding: 10px;
+  height: 150px;
+  width: 300px;
+  color:white;
+  p {
+    font-size:1.4rem;
+    margin: auto;
+  }
 }
 
 /* -------------------------------------------------------------------------------------------------------------- */
@@ -553,7 +581,7 @@ a:before, a:after, a > span:before, a > span:after {
   box-sizing: border-box;
 }
 
-#view {
+.marg {
   margin-top: 222px;
 }
 
