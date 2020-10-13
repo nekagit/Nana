@@ -10184,7 +10184,7 @@ a:before, a:after, a > span:before, a > span:after {
           box-sizing: border-box;
 }
 
-.marg {
+#view {
   margin-top: 222px;
 }
 
