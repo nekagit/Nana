@@ -2,7 +2,7 @@ $primary: rgb(134, 25, 25);
 $card-color: rgba(238, 160, 116, 0.89);
 $header-jumbotron-height: 650px;  
 $section-padding: 220px;
-$box-shadow: 5px 10px 18px #000000;
+$box-shadow: 3px 9px 33px 6px #000000;
 @import "lib/bootstrap/scss/bootstrap";
 
 
@@ -26,13 +26,12 @@ $box-shadow: 5px 10px 18px #000000;
 
 .page-header {
   margin-top: 33px;
-  background-color: $primary;
+  background-color: rgba(100, 10, 10, 0.664);
   padding: 21px 21px 11px 21px;
   background-size: cover;
   background-repeat: no-repeat;
   box-shadow: $box-shadow;
   background-position: 50%;
-  border: 1px solid black;
   
 }
 .page-headerr {
@@ -43,7 +42,7 @@ $box-shadow: 5px 10px 18px #000000;
   background-repeat: no-repeat;
   box-shadow: $box-shadow;
   background-position: 50%;
-  border: 1px solid black;
+  border: 3px solid rgba(0, 0, 0, 0.493);
   
 }
 
@@ -127,13 +126,12 @@ a:before, a:after, a > span:before, a > span:after {
   width: 2.1rem;
   height: 2.1rem;
   margin: 0.4rem 0.33rem 0.33rem 0.33rem;
-  box-shadow: $box-shadow;
-
-
+  box-shadow: 0px 0px 1px 1px black;
   &:hover {
     color: rgb(255, 255, 255);
     background-color: rgb(41,72,125);
     text-decoration: none; 
+    box-shadow: 0px 0px 1px 2px rgb(41,72,125);
   }
 } 
 
@@ -145,12 +143,13 @@ a:before, a:after, a > span:before, a > span:after {
   width: 2.1rem;
   height: 2.1rem;
   margin: 0.4rem 0.33rem 0.33rem 0.33rem;
-  box-shadow: $box-shadow;
+  box-shadow: 0px 0px 1px 1px black;
 
   &:hover {
     color: rgb(255, 255, 255);
     background-color: rgb(230,0,35);
     text-decoration: none; 
+    box-shadow: 0px 0px 1px 2px rgb(230,0,35);
   }
 } 
 
@@ -162,12 +161,13 @@ a:before, a:after, a > span:before, a > span:after {
   width: 2.1rem;
   height: 2.1rem;
   margin: 0.4rem 0.33rem 0.33rem 0.33rem;
-  box-shadow: $box-shadow;
+  box-shadow: 0px 0px 1px 1px black;
 
   &:hover {
     color: rgb(255, 255, 255);
     background-color: rgb(212,44,121);
     text-decoration: none; 
+    box-shadow: 0px 0px 1px 2px rgb(212,44,121);
   } 
 } 
 
@@ -179,12 +179,13 @@ a:before, a:after, a > span:before, a > span:after {
   width: 2.1rem;
   height: 2.1rem;
   margin: 0.4rem 0.33rem 0.33rem 0.33rem;
-  box-shadow:  $box-shadow;
+  box-shadow: 0px 0px 1px 1px black;
 
   &:hover {
     color: rgb(255, 255, 255);
     background-color: rgb(255,0,0);
     text-decoration: none; 
+    box-shadow: 0px 0px 1px 2px rgb(255,0,0);
   }
 } 
 
@@ -192,7 +193,7 @@ a:before, a:after, a > span:before, a > span:after {
 /* -------------------------------------------------------------------------------------------------------------- */
 
 .section-one { 
-  padding-top: $section-padding + 150px;
+  padding-top: $section-padding + 250px;
   padding-bottom: $section-padding + 100px;
   h2 {
   font-family: 'Dancing Script', cursive; 
@@ -202,7 +203,7 @@ a:before, a:after, a > span:before, a > span:after {
 
 .reihe {
   background-color: $card-color; 
-  border: 1px solid $primary;
+  border: 2px solid $primary;
   box-shadow: $box-shadow;
 }
 
@@ -225,7 +226,7 @@ a:before, a:after, a > span:before, a > span:after {
 }
 
 .round {
-  border: 1px solid $primary;
+  border: 2px solid $primary;
   width: fit-content;
 }
 
@@ -252,7 +253,7 @@ a:before, a:after, a > span:before, a > span:after {
 .profilB {
   float: right;
   box-shadow: $box-shadow;
-  border: 1px solid $primary;
+  border: 2px solid $primary;
 }
 
 .profil {
@@ -268,7 +269,7 @@ a:before, a:after, a > span:before, a > span:after {
 
 .biografija {
   background-color: $card-color; 
-  border: 1px solid $primary;
+  border: 2px solid $primary;
   width: 100%;
   box-shadow: $box-shadow;
 }
@@ -311,7 +312,7 @@ a:before, a:after, a > span:before, a > span:after {
   background-color: $card-color;
   padding: 33px;
   box-shadow: $box-shadow; 
-  border: 1px solid $primary;
+  border: 2px solid $primary;
 }
 
 /* -------------------------------------------------------------------------------------------------------------- */
@@ -351,16 +352,16 @@ a:before, a:after, a > span:before, a > span:after {
   background-color:$card-color;
   padding: 15px 15px 15px 15px;
   box-shadow: $box-shadow;
-  margin-top: 133px;
+  margin-top: 200px;
   padding-top: 0px;
-  border: 1px solid $primary;
+  border: 2px solid $primary;
 }
 
 /* -------------------------------------------------------------------------------------------------------------- */
 
 .section-five {
   padding-top: $section-padding;
-  padding-bottom: $section-padding - 100px;
+  padding-bottom: $section-padding - 200px;
   h1 {
     font-family: 'Dancing Script', cursive;
     color:  rgb(128, 23, 23);
@@ -373,11 +374,11 @@ a:before, a:after, a > span:before, a > span:after {
   background-image: url("images/placeholders/prolece.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  width: 70%;
+  width: 88%;
   height: 111px;
   padding: 21px 21px 21px 21px;
-  margin-top: 77px;
-  margin-bottom: 21px;
+  margin-top: 88px;
+  margin-bottom: 88px;
   border: 1px solid black;
   border-radius: 50%;
   box-shadow: $box-shadow;
@@ -387,11 +388,11 @@ a:before, a:after, a > span:before, a > span:after {
   background-image: url("images/placeholders/jesen.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  width: 70%;
+  width: 88%;
   height: 111px;
   padding: 21px 21px 21px 21px;
-  margin-top: 77px;
-  margin-bottom: 21px;
+  margin-top: 88px;
+  margin-bottom: 88px;
   border: 1px solid black;
   border-radius: 50%;
   box-shadow: $box-shadow;
@@ -401,11 +402,11 @@ a:before, a:after, a > span:before, a > span:after {
   background-image: url("images/placeholders/abstr.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  width: 70%;
+  width: 88%;
   height: 111px;
   padding: 21px 21px 21px 21px;
-  margin-top: 77px;
-  margin-bottom: 21px;
+  margin-top: 88px;
+  margin-bottom: 88px;
   border: 1px solid black;
   border-radius: 50%;
   box-shadow: $box-shadow;
@@ -415,11 +416,11 @@ a:before, a:after, a > span:before, a > span:after {
   background-image: url("images/placeholders/zima.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  width: 70%;
+  width: 88%;
   height: 111px;
   padding: 21px 21px 21px 21px;
-  margin-top: 77px;
-  margin-bottom: 21px;
+  margin-top: 88px;
+  margin-bottom: 88px;
   border: 1px solid black;
   border-radius: 50%;
   box-shadow: $box-shadow;
@@ -430,11 +431,11 @@ a:before, a:after, a > span:before, a > span:after {
   background-image: url("images/placeholders/kult.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  width: 70%;
+  width: 88%;
   height: 111px;
   padding: 21px 21px 21px 21px;
-  margin-top: 77px;
-  margin-bottom: 21px;
+  margin-top: 88px;
+  margin-bottom: 88px;
   border: 1px solid black;
   border-radius: 50%;
   box-shadow: $box-shadow;
@@ -442,7 +443,7 @@ a:before, a:after, a > span:before, a > span:after {
 
 .titlovi {
   color: white;
-  font-size: 2.5rem;
+  font-size: 3.3rem;
   font-family: 'Dancing Script', cursive;
   &:hover {
     color: red;
@@ -451,12 +452,27 @@ a:before, a:after, a > span:before, a > span:after {
 }
 
 #zadnji {
-  background-color:rgba(0, 0, 0, 0.822); 
-  padding-top: 50px;
-  margin-left: 33px;
-  margin-right: 33px;
-  border: 1px solid $primary;
+  background-color:rgba(0, 0, 0, 0.652); 
   box-shadow: $box-shadow;
+  padding-top: 70px;
+  padding-bottom: 1px;
+  @include media-breakpoint-up(md) {
+  }
+  @include media-breakpoint-up(xl) {
+  }
+  @media (min-width: 1420px){
+  }
+  @media (min-width: 1600px){
+    background-color:rgba(0, 0, 0, 0.748); 
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-bottom: 50px; 
+    border: 2px solid $primary;
+    box-shadow: $box-shadow;
+  }
+
 }
 
 /* -------------------------------------------------------------------------------------------------------------- */
@@ -467,7 +483,7 @@ a:before, a:after, a > span:before, a > span:after {
   padding-top: 50px;
   margin-left: 33px;
   margin-right: 33px;
-  border: 1px solid $primary;
+  border: 2px solid $primary;
   box-shadow: $box-shadow;
 }
 
@@ -477,7 +493,7 @@ a:before, a:after, a > span:before, a > span:after {
   padding-top: 50px;
   margin-left: 33px;
   margin-right: 33px;
-  border: 1px solid $primary;
+  border: 2px solid $primary;
   box-shadow: $box-shadow;
 }
 
@@ -487,7 +503,7 @@ a:before, a:after, a > span:before, a > span:after {
   padding-top: 50px;
   margin-left: 33px;
   margin-right: 33px;
-  border: 1px solid $primary;
+  border: 2px solid $primary;
   box-shadow: $box-shadow;
 }
 
@@ -497,7 +513,7 @@ a:before, a:after, a > span:before, a > span:after {
   padding-top: 50px;
   margin-left: 33px;
   margin-right: 33px;
-  border: 1px solid $primary;
+  border: 2px solid $primary;
   box-shadow: $box-shadow;
 }
 
@@ -507,7 +523,7 @@ a:before, a:after, a > span:before, a > span:after {
   padding-top: 50px;
   margin-left: 33px;
   margin-right: 33px;
-  border: 1px solid $primary;
+  border: 2px solid $primary;
   box-shadow: $box-shadow;
 }
 
@@ -596,6 +612,8 @@ img {
 /* Position the image container (needed to position the left and right arrows) */
 .container {
   position: relative;
+  padding-left: 0;
+  padding-right: 0;
 }
 
 /* Hide the images by default */
@@ -660,6 +678,11 @@ img {
   @include media-breakpoint-up(md) {
     font-size:2.1rem;
   }
+}
+
+.row {
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 .row:after {

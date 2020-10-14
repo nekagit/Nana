@@ -7856,8 +7856,8 @@ button.bg-dark:focus {
 }
 
 .shadow {
-  -webkit-box-shadow: 5px 10px 18px #000000 !important;
-          box-shadow: 5px 10px 18px #000000 !important;
+  -webkit-box-shadow: 3px 9px 33px 6px #000000 !important;
+          box-shadow: 3px 9px 33px 6px #000000 !important;
 }
 
 .shadow-lg {
@@ -9548,14 +9548,13 @@ a.text-dark:hover, a.text-dark:focus {
 /* -------------------------------------------------------------------------------------------------------------- */
 .page-header {
   margin-top: 33px;
-  background-color: #861919;
+  background-color: rgba(100, 10, 10, 0.664);
   padding: 21px 21px 11px 21px;
   background-size: cover;
   background-repeat: no-repeat;
-  -webkit-box-shadow: 5px 10px 18px #000000;
-          box-shadow: 5px 10px 18px #000000;
+  -webkit-box-shadow: 3px 9px 33px 6px #000000;
+          box-shadow: 3px 9px 33px 6px #000000;
   background-position: 50%;
-  border: 1px solid black;
 }
 
 .page-headerr {
@@ -9564,10 +9563,10 @@ a.text-dark:hover, a.text-dark:focus {
   background-image: url("images/placeholders/IMG_20200305_155834.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  -webkit-box-shadow: 5px 10px 18px #000000;
-          box-shadow: 5px 10px 18px #000000;
+  -webkit-box-shadow: 3px 9px 33px 6px #000000;
+          box-shadow: 3px 9px 33px 6px #000000;
   background-position: 50%;
-  border: 1px solid black;
+  border: 3px solid rgba(0, 0, 0, 0.493);
 }
 
 .navbar-light .navbar-brand {
@@ -9667,14 +9666,16 @@ a:before, a:after, a > span:before, a > span:after {
   width: 2.1rem;
   height: 2.1rem;
   margin: 0.4rem 0.33rem 0.33rem 0.33rem;
-  -webkit-box-shadow: 5px 10px 18px #000000;
-          box-shadow: 5px 10px 18px #000000;
+  -webkit-box-shadow: 0px 0px 1px 1px black;
+          box-shadow: 0px 0px 1px 1px black;
 }
 
 .social-iconf:hover {
   color: white;
   background-color: #29487d;
   text-decoration: none;
+  -webkit-box-shadow: 0px 0px 1px 2px #29487d;
+          box-shadow: 0px 0px 1px 2px #29487d;
 }
 
 .social-iconp {
@@ -9685,14 +9686,16 @@ a:before, a:after, a > span:before, a > span:after {
   width: 2.1rem;
   height: 2.1rem;
   margin: 0.4rem 0.33rem 0.33rem 0.33rem;
-  -webkit-box-shadow: 5px 10px 18px #000000;
-          box-shadow: 5px 10px 18px #000000;
+  -webkit-box-shadow: 0px 0px 1px 1px black;
+          box-shadow: 0px 0px 1px 1px black;
 }
 
 .social-iconp:hover {
   color: white;
   background-color: #e60023;
   text-decoration: none;
+  -webkit-box-shadow: 0px 0px 1px 2px #e60023;
+          box-shadow: 0px 0px 1px 2px #e60023;
 }
 
 .social-iconi {
@@ -9703,14 +9706,16 @@ a:before, a:after, a > span:before, a > span:after {
   width: 2.1rem;
   height: 2.1rem;
   margin: 0.4rem 0.33rem 0.33rem 0.33rem;
-  -webkit-box-shadow: 5px 10px 18px #000000;
-          box-shadow: 5px 10px 18px #000000;
+  -webkit-box-shadow: 0px 0px 1px 1px black;
+          box-shadow: 0px 0px 1px 1px black;
 }
 
 .social-iconi:hover {
   color: white;
   background-color: #d42c79;
   text-decoration: none;
+  -webkit-box-shadow: 0px 0px 1px 2px #d42c79;
+          box-shadow: 0px 0px 1px 2px #d42c79;
 }
 
 .social-icony {
@@ -9721,19 +9726,21 @@ a:before, a:after, a > span:before, a > span:after {
   width: 2.1rem;
   height: 2.1rem;
   margin: 0.4rem 0.33rem 0.33rem 0.33rem;
-  -webkit-box-shadow: 5px 10px 18px #000000;
-          box-shadow: 5px 10px 18px #000000;
+  -webkit-box-shadow: 0px 0px 1px 1px black;
+          box-shadow: 0px 0px 1px 1px black;
 }
 
 .social-icony:hover {
   color: white;
   background-color: red;
   text-decoration: none;
+  -webkit-box-shadow: 0px 0px 1px 2px red;
+          box-shadow: 0px 0px 1px 2px red;
 }
 
 /* -------------------------------------------------------------------------------------------------------------- */
 .section-one {
-  padding-top: 370px;
+  padding-top: 470px;
   padding-bottom: 320px;
 }
 
@@ -9744,9 +9751,9 @@ a:before, a:after, a > span:before, a > span:after {
 
 .reihe {
   background-color: rgba(238, 160, 116, 0.89);
-  border: 1px solid #861919;
-  -webkit-box-shadow: 5px 10px 18px #000000;
-          box-shadow: 5px 10px 18px #000000;
+  border: 2px solid #861919;
+  -webkit-box-shadow: 3px 9px 33px 6px #000000;
+          box-shadow: 3px 9px 33px 6px #000000;
 }
 
 .mySlides {
@@ -9758,8 +9765,8 @@ a:before, a:after, a > span:before, a > span:after {
   width: 100%;
   max-height: 400px;
   height: 400px;
-  -webkit-box-shadow: 5px 10px 18px #000000;
-          box-shadow: 5px 10px 18px #000000;
+  -webkit-box-shadow: 3px 9px 33px 6px #000000;
+          box-shadow: 3px 9px 33px 6px #000000;
 }
 
 @-webkit-keyframes fading {
@@ -9787,7 +9794,7 @@ a:before, a:after, a > span:before, a > span:after {
 }
 
 .round {
-  border: 1px solid #861919;
+  border: 2px solid #861919;
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
@@ -9797,8 +9804,8 @@ a:before, a:after, a > span:before, a > span:after {
   height: 15px;
   background-color: #861919;
   border-radius: 41%;
-  -webkit-box-shadow: 5px 10px 18px #000000;
-          box-shadow: 5px 10px 18px #000000;
+  -webkit-box-shadow: 3px 9px 33px 6px #000000;
+          box-shadow: 3px 9px 33px 6px #000000;
 }
 
 /* -------------------------------------------------------------------------------------------------------------- */
@@ -9813,9 +9820,9 @@ a:before, a:after, a > span:before, a > span:after {
 
 .profilB {
   float: right;
-  -webkit-box-shadow: 5px 10px 18px #000000;
-          box-shadow: 5px 10px 18px #000000;
-  border: 1px solid #861919;
+  -webkit-box-shadow: 3px 9px 33px 6px #000000;
+          box-shadow: 3px 9px 33px 6px #000000;
+  border: 2px solid #861919;
 }
 
 .profil {
@@ -9836,10 +9843,10 @@ a:before, a:after, a > span:before, a > span:after {
 
 .biografija {
   background-color: rgba(238, 160, 116, 0.89);
-  border: 1px solid #861919;
+  border: 2px solid #861919;
   width: 100%;
-  -webkit-box-shadow: 5px 10px 18px #000000;
-          box-shadow: 5px 10px 18px #000000;
+  -webkit-box-shadow: 3px 9px 33px 6px #000000;
+          box-shadow: 3px 9px 33px 6px #000000;
 }
 
 /* -------------------------------------------------------------------------------------------------------------- */
@@ -9887,9 +9894,9 @@ a:before, a:after, a > span:before, a > span:after {
 .bx {
   background-color: rgba(238, 160, 116, 0.89);
   padding: 33px;
-  -webkit-box-shadow: 5px 10px 18px #000000;
-          box-shadow: 5px 10px 18px #000000;
-  border: 1px solid #861919;
+  -webkit-box-shadow: 3px 9px 33px 6px #000000;
+          box-shadow: 3px 9px 33px 6px #000000;
+  border: 2px solid #861919;
 }
 
 /* -------------------------------------------------------------------------------------------------------------- */
@@ -9920,25 +9927,25 @@ a:before, a:after, a > span:before, a > span:after {
 
 .kontaktText {
   background-color: rgba(255, 255, 255, 0.87);
-  -webkit-box-shadow: 5px 10px 18px #000000;
-          box-shadow: 5px 10px 18px #000000;
+  -webkit-box-shadow: 3px 9px 33px 6px #000000;
+          box-shadow: 3px 9px 33px 6px #000000;
   padding: 5px 5px 5px 5px;
 }
 
 .kontaktTitel {
   background-color: rgba(238, 160, 116, 0.89);
   padding: 15px 15px 15px 15px;
-  -webkit-box-shadow: 5px 10px 18px #000000;
-          box-shadow: 5px 10px 18px #000000;
-  margin-top: 133px;
+  -webkit-box-shadow: 3px 9px 33px 6px #000000;
+          box-shadow: 3px 9px 33px 6px #000000;
+  margin-top: 200px;
   padding-top: 0px;
-  border: 1px solid #861919;
+  border: 2px solid #861919;
 }
 
 /* -------------------------------------------------------------------------------------------------------------- */
 .section-five {
   padding-top: 220px;
-  padding-bottom: 120px;
+  padding-bottom: 20px;
 }
 
 .section-five h1 {
@@ -9951,80 +9958,80 @@ a:before, a:after, a > span:before, a > span:after {
   background-image: url("images/placeholders/prolece.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  width: 70%;
+  width: 88%;
   height: 111px;
   padding: 21px 21px 21px 21px;
-  margin-top: 77px;
-  margin-bottom: 21px;
+  margin-top: 88px;
+  margin-bottom: 88px;
   border: 1px solid black;
   border-radius: 50%;
-  -webkit-box-shadow: 5px 10px 18px #000000;
-          box-shadow: 5px 10px 18px #000000;
+  -webkit-box-shadow: 3px 9px 33px 6px #000000;
+          box-shadow: 3px 9px 33px 6px #000000;
 }
 
 .jesen {
   background-image: url("images/placeholders/jesen.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  width: 70%;
+  width: 88%;
   height: 111px;
   padding: 21px 21px 21px 21px;
-  margin-top: 77px;
-  margin-bottom: 21px;
+  margin-top: 88px;
+  margin-bottom: 88px;
   border: 1px solid black;
   border-radius: 50%;
-  -webkit-box-shadow: 5px 10px 18px #000000;
-          box-shadow: 5px 10px 18px #000000;
+  -webkit-box-shadow: 3px 9px 33px 6px #000000;
+          box-shadow: 3px 9px 33px 6px #000000;
 }
 
 .abstrakcije {
   background-image: url("images/placeholders/abstr.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  width: 70%;
+  width: 88%;
   height: 111px;
   padding: 21px 21px 21px 21px;
-  margin-top: 77px;
-  margin-bottom: 21px;
+  margin-top: 88px;
+  margin-bottom: 88px;
   border: 1px solid black;
   border-radius: 50%;
-  -webkit-box-shadow: 5px 10px 18px #000000;
-          box-shadow: 5px 10px 18px #000000;
+  -webkit-box-shadow: 3px 9px 33px 6px #000000;
+          box-shadow: 3px 9px 33px 6px #000000;
 }
 
 .zima {
   background-image: url("images/placeholders/zima.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  width: 70%;
+  width: 88%;
   height: 111px;
   padding: 21px 21px 21px 21px;
-  margin-top: 77px;
-  margin-bottom: 21px;
+  margin-top: 88px;
+  margin-bottom: 88px;
   border: 1px solid black;
   border-radius: 50%;
-  -webkit-box-shadow: 5px 10px 18px #000000;
-          box-shadow: 5px 10px 18px #000000;
+  -webkit-box-shadow: 3px 9px 33px 6px #000000;
+          box-shadow: 3px 9px 33px 6px #000000;
 }
 
 .kultura {
   background-image: url("images/placeholders/kult.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  width: 70%;
+  width: 88%;
   height: 111px;
   padding: 21px 21px 21px 21px;
-  margin-top: 77px;
-  margin-bottom: 21px;
+  margin-top: 88px;
+  margin-bottom: 88px;
   border: 1px solid black;
   border-radius: 50%;
-  -webkit-box-shadow: 5px 10px 18px #000000;
-          box-shadow: 5px 10px 18px #000000;
+  -webkit-box-shadow: 3px 9px 33px 6px #000000;
+          box-shadow: 3px 9px 33px 6px #000000;
 }
 
 .titlovi {
   color: white;
-  font-size: 2.5rem;
+  font-size: 3.3rem;
   font-family: 'Dancing Script', cursive;
   text-shadow: 1px 1px 1px;
 }
@@ -10034,13 +10041,25 @@ a:before, a:after, a > span:before, a > span:after {
 }
 
 #zadnji {
-  background-color: rgba(0, 0, 0, 0.822);
-  padding-top: 50px;
-  margin-left: 33px;
-  margin-right: 33px;
-  border: 1px solid #861919;
-  -webkit-box-shadow: 5px 10px 18px #000000;
-          box-shadow: 5px 10px 18px #000000;
+  background-color: rgba(0, 0, 0, 0.652);
+  -webkit-box-shadow: 3px 9px 33px 6px #000000;
+          box-shadow: 3px 9px 33px 6px #000000;
+  padding-top: 70px;
+  padding-bottom: 1px;
+}
+
+@media (min-width: 1600px) {
+  #zadnji {
+    background-color: rgba(0, 0, 0, 0.748);
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-bottom: 50px;
+    border: 2px solid #861919;
+    -webkit-box-shadow: 3px 9px 33px 6px #000000;
+            box-shadow: 3px 9px 33px 6px #000000;
+  }
 }
 
 /* -------------------------------------------------------------------------------------------------------------- */
@@ -10050,9 +10069,9 @@ a:before, a:after, a > span:before, a > span:after {
   padding-top: 50px;
   margin-left: 33px;
   margin-right: 33px;
-  border: 1px solid #861919;
-  -webkit-box-shadow: 5px 10px 18px #000000;
-          box-shadow: 5px 10px 18px #000000;
+  border: 2px solid #861919;
+  -webkit-box-shadow: 3px 9px 33px 6px #000000;
+          box-shadow: 3px 9px 33px 6px #000000;
 }
 
 #jesec {
@@ -10061,9 +10080,9 @@ a:before, a:after, a > span:before, a > span:after {
   padding-top: 50px;
   margin-left: 33px;
   margin-right: 33px;
-  border: 1px solid #861919;
-  -webkit-box-shadow: 5px 10px 18px #000000;
-          box-shadow: 5px 10px 18px #000000;
+  border: 2px solid #861919;
+  -webkit-box-shadow: 3px 9px 33px 6px #000000;
+          box-shadow: 3px 9px 33px 6px #000000;
 }
 
 #absec {
@@ -10072,9 +10091,9 @@ a:before, a:after, a > span:before, a > span:after {
   padding-top: 50px;
   margin-left: 33px;
   margin-right: 33px;
-  border: 1px solid #861919;
-  -webkit-box-shadow: 5px 10px 18px #000000;
-          box-shadow: 5px 10px 18px #000000;
+  border: 2px solid #861919;
+  -webkit-box-shadow: 3px 9px 33px 6px #000000;
+          box-shadow: 3px 9px 33px 6px #000000;
 }
 
 #kultec {
@@ -10083,9 +10102,9 @@ a:before, a:after, a > span:before, a > span:after {
   padding-top: 50px;
   margin-left: 33px;
   margin-right: 33px;
-  border: 1px solid #861919;
-  -webkit-box-shadow: 5px 10px 18px #000000;
-          box-shadow: 5px 10px 18px #000000;
+  border: 2px solid #861919;
+  -webkit-box-shadow: 3px 9px 33px 6px #000000;
+          box-shadow: 3px 9px 33px 6px #000000;
 }
 
 #zimec {
@@ -10094,9 +10113,9 @@ a:before, a:after, a > span:before, a > span:after {
   padding-top: 50px;
   margin-left: 33px;
   margin-right: 33px;
-  border: 1px solid #861919;
-  -webkit-box-shadow: 5px 10px 18px #000000;
-          box-shadow: 5px 10px 18px #000000;
+  border: 2px solid #861919;
+  -webkit-box-shadow: 3px 9px 33px 6px #000000;
+          box-shadow: 3px 9px 33px 6px #000000;
 }
 
 #karte {
@@ -10199,6 +10218,8 @@ img {
 /* Position the image container (needed to position the left and right arrows) */
 .container {
   position: relative;
+  padding-left: 0;
+  padding-right: 0;
 }
 
 /* Hide the images by default */
@@ -10267,6 +10288,11 @@ img {
   .caption-container {
     font-size: 2.1rem;
   }
+}
+
+.row {
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 .row:after {
