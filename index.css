@@ -9893,15 +9893,27 @@ a:before, a:after, a > span:before, a > span:after {
 
 #myBt {
   border-radius: 50%;
-  width: 60px;
+  padding: 10px;
 }
 
 .bx {
   background-color: rgba(189, 127, 34, 0.939);
-  padding: 33px;
+  padding: 8px;
   -webkit-box-shadow: 3px 9px 33px 6px #000000;
           box-shadow: 3px 9px 33px 6px #000000;
-  border: 2px solid #861919;
+  border: 1px solid #861919;
+}
+
+.bx h1 {
+  font-size: 2.0rem;
+  margin: auto;
+}
+
+@media (min-width: 768px) {
+  .bx h1 {
+    margin-left: 0;
+    font-size: 2.8rem;
+  }
 }
 
 /* -------------------------------------------------------------------------------------------------------------- */
