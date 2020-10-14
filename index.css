@@ -9516,6 +9516,11 @@ a.text-dark:hover, a.text-dark:focus {
   }
 }
 
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
 #myBtn {
   display: none;
   /* Hidden by default */
