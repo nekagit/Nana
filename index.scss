@@ -1,5 +1,5 @@
 $primary: rgb(134, 25, 25);
-$card-color: rgba(238, 160, 116, 0.89);
+$card-color: rgba(245, 150, 95, 0.926);
 $header-jumbotron-height: 650px;  
 $section-padding: 220px;
 $box-shadow: 3px 9px 33px 6px #000000;
@@ -271,7 +271,7 @@ a:before, a:after, a > span:before, a > span:after {
 }
 
 .biografija {
-  background-color: $card-color; 
+  background-color: rgba(219, 108, 67, 0.933);
   border: 2px solid $primary;
   width: 100%;
   box-shadow: $box-shadow;
@@ -312,7 +312,7 @@ a:before, a:after, a > span:before, a > span:after {
 }
 
 .bx {
-  background-color: $card-color;
+  background-color: rgba(189, 127, 34, 0.939);
   padding: 33px;
   box-shadow: $box-shadow; 
   border: 2px solid $primary;
@@ -346,13 +346,13 @@ a:before, a:after, a > span:before, a > span:after {
 }
 
 .kontaktText {
-  background-color:rgba(255, 255, 255, 0.87);
+  background-color:rgba(255, 255, 255, 0.666);
   box-shadow: $box-shadow;
   padding: 5px 5px 5px 5px;
 }
 
 .kontaktTitel {
-  background-color:$card-color;
+  background-color:rgba(255, 255, 255, 0.666);
   padding: 15px 15px 15px 15px;
   box-shadow: $box-shadow;
   margin-top: 200px;
