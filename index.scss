@@ -1,7 +1,6 @@
 $primary: rgb(134, 25, 25);
 $card-color: rgba(245, 150, 95, 0.926);
-$header-jumbotron-height: 650px;  
-$section-padding: 220px;
+$section-padding: 200px;
 $box-shadow: 3px 9px 33px 6px #000000;
 @import "lib/bootstrap/scss/bootstrap";
 
@@ -39,13 +38,15 @@ html, body {
 }
 .page-headerr {
   margin-top: 33px;
-  padding: 21px 21px 11px 21px;
+  padding: 0px 21px 11px 21px;
   background-image: url("images/placeholders/IMG_20200305_155834.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   box-shadow: $box-shadow;
   background-position: 50%;
   border: 3px solid rgba(0, 0, 0, 0.493);
+  height: 721px;
+  width: 100%;
   
 }
 
@@ -96,28 +97,18 @@ a:before, a:after, a > span:before, a > span:after {
   background-color: transparent;
   padding: 0px;
   margin-bottom: 0px;
-  height: $header-jumbotron-height;
 
-  @include media-breakpoint-up(sm) {
-    height: $header-jumbotron-height + 50px;
-  }
-  @include media-breakpoint-up(md) {
-    height: $header-jumbotron-height + 100px;
-  }
-  @include media-breakpoint-up(lg) {
-    height: $header-jumbotron-height + 150px;
-  }
-
-  h2 {
-    font-style: italic;
+  h4 {
+    padding: 0px 21px 21px 21px;
     color: rgb(0, 0, 0);
     font-family: 'Dancing Script', cursive;
-    font-size: 5rem;
+    font-size: 3rem;
   }
-  h1 {
+  h3 {
+    padding: 111px 21px 10px 21px;
     color: rgb(0, 0, 0);
     font-family: 'Dancing Script', cursive;
-    font-size: 5rem;
+    font-size: 3.3rem;
   }
 }
 
@@ -196,8 +187,10 @@ a:before, a:after, a > span:before, a > span:after {
 /* -------------------------------------------------------------------------------------------------------------- */
 
 .section-one { 
-  padding-top: $section-padding + 250px;
-  padding-bottom: $section-padding + 100px;
+  padding-top: $section-padding + 100px;
+  padding-bottom: $section-padding;
+  font-family: 'Overlock', cursive;
+ 
   h2 {
   font-family: 'Dancing Script', cursive; 
   font-size: 2.9rem;
@@ -218,7 +211,10 @@ a:before, a:after, a > span:before, a > span:after {
 .fenster {
   width: 100%;
   max-height: 400px; 
-  height: 400px;
+  height: 300px;
+  @include media-breakpoint-up(sm) {
+    height: 400px;
+  }
   box-shadow: $box-shadow;
 }
 
@@ -234,36 +230,27 @@ a:before, a:after, a > span:before, a > span:after {
 }
 
 
-.grenze { 
-  height: 15px;
-  background-color: $primary;
-  border-radius: 41%;
-  box-shadow: $box-shadow;
-  
-}
 
 /* -------------------------------------------------------------------------------------------------------------- */
 
 .section-two {
-  padding-top: $section-padding + 50px;
-  padding-bottom: $section-padding + 100px;
+  padding-top: $section-padding ;
+  padding-bottom: $section-padding;
 
   h1 {
     font-family: 'Dancing Script', cursive;
+    padding: 10px;
       }
+      
 }
 
 .profilB {
-  float: right;
-  box-shadow: $box-shadow;
-  border: 2px solid $primary;
+  box-shadow: 1px 6px 21px 3px #000000;
+  border: 1px solid $primary;
+  width: 188px;
 }
 
-.profil {
-  display: flex;
-  flex-direction: column;
-  float: right;
-  margin: 0 0 0 21px;
+.biog {
 }
 
 .titl {
@@ -271,34 +258,30 @@ a:before, a:after, a > span:before, a > span:after {
 }
 
 .biografija {
-  background-color: rgba(219, 108, 67, 0.933);
-  border: 2px solid $primary;
+  background-color: rgb(223, 120, 83);
+  border: 1px solid $primary;
   width: 100%;
   box-shadow: $box-shadow;
+  padding: 30px;
+  font-family: 'Overlock', cursive;
+
+}
+
+.prt {
+  padding: 21px;
+  @include media-breakpoint-up(sm) {
+    padding: 42px 21px 33px 21px;
+  }
 }
 
 /* -------------------------------------------------------------------------------------------------------------- */
 .section-three{
-  padding-top: $section-padding + 50px;
-  padding-bottom: $section-padding + 100px;
+  padding-top: $section-padding ;
+  padding-bottom: $section-padding;
 
   h1 {
     font-family: 'Dancing Script', cursive;
       }
-}
-
-.title2 {
-  padding-right: 0px;
-
-  @include media-breakpoint-up(sm) {
-    padding-right: 0px;
-  }
-  @include media-breakpoint-up(md) {
-    padding-right: 100px;
-  }
-  @include media-breakpoint-up(lg) {
-    padding-right: 133px;
-  }
 }
 
 #myVideo { 
@@ -308,19 +291,18 @@ a:before, a:after, a > span:before, a > span:after {
 
 #myBt {
   border-radius: 50%; 
-  padding: 10px;
-  @include media-breakpoint-up(md) {
-  }
+  padding: 14px;
+  margin: 20px;
 }
 
 .bx {
-  background-color: rgba(189, 127, 34, 0.939);
-  padding: 8px;
+  background-color: rgba(0, 0, 0, 0.46);
+  padding: 18px;
   box-shadow: $box-shadow; 
-  border: 1px solid $primary;
 
   h1 {
     font-size: 2.0rem;
+    color: white;
     margin: auto;
     @include media-breakpoint-up(md) {
       margin-left: 0;
@@ -332,7 +314,6 @@ a:before, a:after, a > span:before, a > span:after {
 /* -------------------------------------------------------------------------------------------------------------- */
 
 .section-four{
-  padding-top: $section-padding;
   padding-bottom: 50px;
 
   h1 {
@@ -374,8 +355,8 @@ a:before, a:after, a > span:before, a > span:after {
 /* -------------------------------------------------------------------------------------------------------------- */
 
 .section-five {
-  padding-top: $section-padding;
-  padding-bottom: $section-padding - 200px;
+  padding-top: $section-padding ;
+  padding-bottom: $section-padding;
   h1 {
     font-family: 'Dancing Script', cursive;
     color:  rgb(128, 23, 23);

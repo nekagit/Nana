@@ -1,417 +1,388 @@
-1 - proleće 
-Dimenzije:
-Material:	
-Godina prizvd.:	
+1 - Proleće
+Dimenzije: 60x80
+Material: Ulje na platnu
+Godina prizvd.: 2016
 
 
-2 -  jesenska šetnja
-Dimenzije:
-Material:	
-Godina prizvd.:	
+2 - Jesen na Zlatiboru
+Dimenzije: 50x60
+Material: Ulje na platnu
+Godina prizvd.: 2016
 
 
-3 - jesenski zalazak sunca
-Dimenzije:
-Material:	
-Godina prizvd.:	
+3 - Jesenski zalazak sunca
+Dimenzije: 50cm x 60cm
+Material: Ulje na platnu
+Godina prizvd.: 2017
 
 
-4 - šumski proplanak
-Dimenzije:	JOS FALI!!
-Material:	ulje, platna
-Godina prizvd.:	2010
-
-5 - brza reka
-Dimenzije:
-Material:	
-Godina prizvd.:	
+4 - Sumski proplanak
+Dimenzije: 45cm x 60cm
+Material: Ulje na platnu
+Godina prizvd.: 2010
 
 
-6 - pećina pored mora
-Dimenzije:
-Material:	
-Godina prizvd.:	
+5 - Brza reka
+Dimenzije: 50cm x 37cm
+Material: Ulje na platnu
+Godina prizvd.: 2006
 
 
-7 - prvi sneg
-Dimenzije:	60cm x 45cm (23.6'' x 17.7'')
-Material:	ulje, platna
-Godina prizvd.:	2013
-
-8 - rana jesen
-Dimenzije:
-Material:	
-Godina prizvd.:	
+6 - Pećina pored mora
+Dimenzije: 50cm x 38cm
+Material: Ulje na kartonu
+Godina prizvd.: 2014
 
 
-9 - vodeno igralište
-Dimenzije:
-Material:	
-Godina prizvd.:	
+7 - Prvi sneg
+Dimenzije: 60cm x 45cm 
+Material: Ulje na platnu
+Godina prizvd.: 2013
 
 
-10 - sila vode
-Dimenzije:
-Material:	
-Godina prizvd.:	
+8 - Rana jesen
+Dimenzije: 48cm x 60cm
+Material: Ulje na platnu
+Godina prizvd.: 2015
 
 
-11 - romantičan zalazak
-Dimenzije:
-Material:	
-Godina prizvd.:	
+9 - Pogled na more
+Dimenzije: 38cm x 59cm
+Material: Ulje na platnu
+Godina prizvd.: 2013
 
 
-12 - jesenina
-Dimenzije:	JOS FALI!!
-Material:	ulje, platna
-Godina prizvd.:	2010
-
-13 - mir i priroda
-Dimenzije:
-Material:	
-Godina prizvd.:	
+10 - Na otvorenom moru
+Dimenzije: 45cm x 60cm
+Material: Ulje na platnu
+Godina prizvd.: 2008
 
 
-
-14 - hladopad
-Dimenzije:
-Material:	
-Godina prizvd.:	
-
+12 - Zlatna jesen
+Dimenzije: 50cm x 60cm
+Material: Ulje na platnu
+Godina prizvd.: 2010
 
 
-15 - magični vetar
-Dimenzije:
-Material:	
-Godina prizvd.:	
+14 - Zimsko jutro
+Dimenzije:50x60
+Material:Ulje na platnu
+Godina prizvd.:
 
 
-
-16 - abstrakcija zemljišta
-Dimenzije:
-Material:	
-Godina prizvd.:	
-
+15 - Crkvica
+Dimenzije: 55cm x 75cm
+Material:Ulje na platnu
+Godina prizvd.: 2016
 
 
-17 - lom puta
-Dimenzije:	97cm x 67cm (38.2'' x 26.4'')
-Material:	ulje, platna
-Godina prizvd.:	JOS FALI!!
-
-18 - vodopad na suvoj planini
-Dimenzije:	67cm x 77cm (26.4'' x 30.3'')
-Material:	ulje, platna
-Godina prizvd.:	2004
-
-19 - prošla sečanja
-Dimenzije:
-Material:	
-Godina prizvd.:	
+16 - Vodopad na staroj planini
+Dimenzije: 50cm x 60cm
+Material: Ulje na platnu
+Godina prizvd.: 2012
 
 
-
-20 - zlatni kaos
-Dimenzije:	JOS FALI!!
-Material:	ulje, platna
-Godina prizvd.:	2013
-
-21 - šareno zrno
-Dimenzije:	80cm x 60cm (31.5'' x 23.6'')
-Material:	Creative Handicraft, platna
-Godina prizvd.:	2020
-
-22 - lice lica
-Dimenzije:	70cm x 90cm (27.6'' x 35.4'')
-Material:	Acrylic, platna
-Godina prizvd.:	2020
-
-23 - mistika boje
-Dimenzije:	40cm x 50cm (15.7'' x 19.7'')
-Material:	Sculpture, Gypsum
-Godina prizvd.:	2011
-
-24 - trancendentan svet
-Dimenzije:
-Material:	
-Godina prizvd.:	
+17 - Pecina
+Dimenzije: 97cm x 67cm 
+Material: ulje na platnu
+Godina prizvd.: 2006
 
 
-
-25 - buket srca
-Dimenzije:	JOS FALI!!
-Material:	ulje, platna
-Godina prizvd.:	2013
-
-26 - stara škola
-Dimenzije:
-Material:	
-Godina prizvd.:	
+18 - Prirodna kapija
+Dimenzije: 67cm x 77cm 
+Material: ulje na platnu
+Godina prizvd.: 2004
 
 
-
-27 - prijatno ležalište
-Dimenzije:
-Material:	
-Godina prizvd.:	
-
+19 - Milosev konak
+Dimenzije: 60cm x 90cm
+Material: Ulje na platnu
+Godina prizvd.: 2007
 
 
-28 - zaboravljen čamac
-Dimenzije:
-Material:	
-Godina prizvd.:	
+20 - Morski zivi svet
+Dimenzije: 100cm x 80cm
+Material: Ulje na platna
+Godina prizvd.: 2013
 
 
-
-29 - sumrak 
-Dimenzije:
-Material:	
-Godina prizvd.:	
-
+21 - Abstrakcija
+Dimenzije: 80cm x 60cm 
+Material: akril, smesa Sa fasade, cirkoni
+Godina prizvd.: 2020
 
 
-30 - smrt beli
-Dimenzije:
-Material:	
-Godina prizvd.:	
+22 - Abstrakcija ll
+Dimenzije: 70cm x 90cm 
+Material : akril, masa sa fasade
+Godina prizvd.: 2020
 
 
+23 - Svetogorske stene
+Dimenzije: 40cm x 50cm 
+Material: Ulje na lesonitu i regips prah 
+Godina prizvd.: 2011
 
-31 - pada voda
-Dimenzije:
-Material:	
-Godina prizvd.:	
 
+24 - Planinska recica
+Dimenzije: 38cm x 48cm
+Material: Ulje na lesonitu
+Godina prizvd.: 2019
+
+
+25 - Jorgovani
+Dimenzije: 40cm x 50cm 
+Material: Ulje na platnu
+Godina prizvd.: 2013
+
+
+26 - Selo pored reke
+Dimenzije: 40cm x 50cm
+Material: Ulje na platnu
+Godina prizvd.: 2020
+
+
+27 - Suncan dan 
+Dimenzije: 40cm x 50cm
+Material:Ulje na platnu
+Godina prizvd.: 2017
+
+
+28 - Zaboravljen čamac
+Dimenzije: 44cm x 50cm
+Material: Ulje na platnu
+Godina prizvd.: 2001
+
+
+29 - sumrak
+Dimenzije: 45cm x 60cm
+Material:Ulje na platnu
+Godina prizvd.: 2014
+
+
+30 - Otapanje snega
+Dimenzije: 40cm x 50cm
+Material: Ulje na lesonitu
+Godina prizvd.:
+
+
+31 - Vodopad
+Dimenzije: 60cm x 38cm
+Material: Ulje na platnu
+Godina prizvd.: 2002
 
 
 33 - polse kiše
-Dimenzije:
-Material:	
-Godina prizvd.:	
-
+Dimenzije: 50cm x 30cm 
+Material: Ulje na platnu
+Godina prizvd.: 2016
 
 
 34 - prolećni dan
-Dimenzije:
-Material:	
-Godina prizvd.:	
+Dimenzije: 59cm x 30cm
+Material:Ulje na platnu
+Godina prizvd.: 2001
 
 
-
-35 - jesena čuda
-Dimenzije:
-Material:	
-Godina prizvd.:	
-
+36 - Abstrakcija roze
+Dimenzije: 40cm x 40cm
+Material: Akrilna masa sa fasade
+Godina prizvd.: 2012
 
 
-36 - abstrakcija roze
-Dimenzije:
-Material:	
-Godina prizvd.:	
+37 - Zima u polju
+Dimenzije: 50cm x 73cm
+Material: Ulje na platnu
+Godina prizvd.: 2011
 
 
-
-37 - beo put
-Dimenzije:
-Material:	
-Godina prizvd.:	
-
+38 - More
+Dimenzije: 50cm x 60cm
+Material: Ulje na platnu
+Godina prizvd.: 2000
 
 
-38 - grm i lom
-Dimenzije:
-Material:	
-Godina prizvd.:	
+39 - Pejsaz
+Dimenzije: 60cm x 45cm
+Material: Ulje na platnu
+Godina prizvd.: 2013
 
-
-
-39 - crna reka
-Dimenzije:	60cm x 45cm (23.6'' x 17.7'')
-Material:	ulje, platna
-Godina prizvd.:	2013
 
 40 - svetlost kroz šumu
-Dimenzije:	JOS FALI!!
-Material:	ulje, platna
-Godina prizvd.:	2015
+Dimenzije 60cm x 45cm
+Tehnika: Ulje na platnu
+Godina prizvd.: 2015
 
-41 - reflektor osečanja
-Dimenzije:	JOS FALI!!
-Material:	ulje, platna
-Godina prizvd.:	2016
+
+41 - Sumski put
+Dimenzije: 50cm x 70cm
+Material: Ulje na platnu
+Godina prizvd.: 2016
+
 
 42 - močvara
-Dimenzije:
-Material:	
-Godina prizvd.:	
+Dimenzije: 50cm x 60cm
+Material: Ulje na platnu
+Godina prizvd.: 1999
 
 
-
-43 - stara garda
-Dimenzije:	JOS FALI!!
-Material:	ulje, platna
-Godina prizvd.:	JOS FALI!!
-
-44 - stari grad
-Dimenzije:
-Material:	
-Godina prizvd.:	
+43 - Stara vikendica
+Dimenzije: 49cm x 60cm
+Material: Ulje na platnu
+Godina prizvd.: 2012
 
 
-
-45 - kristali 
-Dimenzije:	75cm x 54cm (29.5'' x 21.3'')
-Material:	ulje, platna
-Godina prizvd.:	2011
-
-46 - daleka je srbija
-Dimenzije:	60cm x 46cm (23.6'' x 18.1'')
-Material:	ulje, platna
-Godina prizvd.:	JOS FALI!!
-
-47 - planine i brda
-Dimenzije:	70cm x 50cm (27.6'' x 19.7'')
-Material:	Sculpture, Wood
-Godina prizvd.:	2013
-
-48 - jednom bila
-Dimenzije:
-Material:	
-Godina prizvd.:	
+44 - Otac i sin u camcu
+Dimenzije: 45cm x 60cm
+Material: Ulje na platnu
+Godina prizvd.: 2001
 
 
+45 - Grad u stenama
+Dimenzije: 75cm x 54cm 
+Material: Ulje na platnu
+Godina prizvd.: 2011
 
-49 - abstrakcija temelj
-Dimenzije:
-Material:	
-Godina prizvd.:	
 
+47 - Alpski gleceri
+Dimenzije: 70cm x 50cm 
+Material: Ulje na platnu sa peskom
+Godina prizvd.: 2013
+
+
+48 - Zeteoc
+Dimenzije: 45cm x 60cm
+Material: Ulje na platnu
+Godina prizvd.: 2000
+
+
+49 - abstrakcija
+Dimenzije: 45cm x 60cm
+Material: Ulje na platnu
+Godina prizvd.: 1998
 
 
 50 - manastir
-Dimenzije:	70cm x 50cm (27.6'' x 19.7'')
-Material:	ulje, platna
-Godina prizvd.:	2012
-
-51 - težak put
-Dimenzije:	75cm x 50cm (29.5'' x 19.7'')
-Material:	ulje, platna
-Godina prizvd.:	2013
-
-52 - lepota pod vodom
-Dimenzije:	JOS FALI!!
-Material:	ulje, platna
-Godina prizvd.:	2017
-
-53 - početak ili kraj
-Dimenzije:
-Material:	
-Godina prizvd.:	
+Dimenzije: 70cm x 50cm 
+Material: Ulje na platnu
+Godina prizvd.: 2012
 
 
-
-54 - svemirski pogled
-Dimenzije:	45cm x 45cm (17.7'' x 17.7'')
-Material:	ulje, platna
-Godina prizvd.:	2015
-
-55 - štabovi ljubavni
-Dimenzije:
-Material:	
-Godina prizvd.:	
+51 - Planinski krs
+Dimenzije: 75cm x 50cm 
+Material: ulje, platna, neprosejani pesak
+Godina prizvd.: 2013
 
 
-
-56 - progresija
-Dimenzije:
-Material:	
-Godina prizvd.:	
-
+52 - Lepota pod vodom
+Dimenzije: 40cm x 50cm 
+Material: ulje na platna
+Godina prizvd.: 2017
 
 
-57 - bara blatnjava
-Dimenzije:	60cm x 50cm (23.6'' x 19.7'')
-Material:	ulje, platna
-Godina prizvd.:	2008
-
-58 - milina 
-Dimenzije:
-Material:	
-Godina prizvd.:	
+53 - Pristaniste camaca
+Dimenzije: 50cm x 60cm
+Material: Ulje na platnu
+Godina prizvd.: 2009
 
 
+54 - Planinska reka
+Dimenzije: 45cm x 45cm 
+Material: Ulje na lesonitu
+Godina prizvd.: 2015
 
-59 - tišina
-Dimenzije:
-Material:	
-Godina prizvd.:	
+
+55 - Grad
+Dimenzije: 58cm x 38cm
+Material: Ulje na platnu
+Godina prizvd.: 2006
+
+
+56 - progresija ista sa 53
+Dimenzije: 60cm x 50cm 
+Material: Ulje na platnu
+Godina prizvd.: 2006
+
+
+57 - Intima
+Dimenzije: 60cm x 50cm
+Material: Ulje na platnu
+Godina prizvd.: 2008
+
+
+58 - milina
+Dimenzije: 40cm x 60cm
+Material: Ulje na platnu
+Godina prizvd.: 2007
 
 
 
-60 - lepota
-Dimenzije:
-Material:	
-Godina prizvd.:	
+59 - Tisina
+Dimenzije: 37cm x 40cm
+Material: Ulje na platnu
+Godina prizvd.: 2005
 
 
+60 - Portret
+Dimenzije: 30cm x 40cm
+Material: Suvi pastel
+Godina prizvd.: 2020
 
-61 - kraj
-Dimenzije:	80cm x 60cm (31.5'' x 23.6'')
-Material:	Acrylic, platna
-Godina prizvd.:	2015
 
-62 - redlight
-Dimenzije:	60cm x 40cm (23.6'' x 15.7'')
-Material:	ulje, platna
-Godina prizvd.:	2013
+61 - Crvena abstrakcija
+Dimenzije: 80cm x 60cm 
+Material Ulje na platnu
+Godina prizvd.: 2015
 
-63 - village
-Dimenzije:	80cm x 70cm (31.5'' x 27.6'')
-Material:	ulje, platna
-Godina prizvd.:	2015
 
-64 - 
-Dimenzije:
-Material:	
-Godina prizvd.:	
+62 - Uzareno nebo
+Dimenzije: 60cm x 40cm 
+Material: Ulje na platnu
+Godina prizvd.: 2013
 
+
+63 - Urbano naselje
+Dimenzije: 80cm x 70cm 
+Material: Ulje na platna
+Godina prizvd.: 2015
+
+
+64 - moj put u zimi
+Dimenzije: 60cm x 50cm 
+Material: Ulje na platnu
+Godina prizvd.: 2006
 
 
 65 - zelenište
-Dimenzije:
-Material:	
-Godina prizvd.:	
+Dimenzije: 80cm x 70cm 
+Material: Ulje na platnu
+Godina prizvd.: 2006
+
+66 -Plitvice
+Dimenzije: 60cm x 50cm 
+Material: Ulje na platna
+Godina prizvd.: 2009
 
 
-
-66 - jaka reka
-Dimenzije:	60cm x 50cm (23.6'' x 19.7'')
-Material:	ulje, platna
-Godina prizvd.:	2009
-
-67 - 
-Dimenzije:
-Material:	
-Godina prizvd.:	
+67: Pogled
+Dimenzije: 60cm x 80cm
+Material: Ulje na platu
+Godina prizvd.: 2017
 
 
-
-68 - plava lepota
-Dimenzije:	80cm x 60cm (31.5'' x 23.6'')
-Material:	ulje, platna
-Godina prizvd.:	JOS FALI!!
-
-69 - 
-Dimenzije:
-Material:	
-Godina prizvd.:	
+68 - U Pejsazu
+Dimenzije: 80cm x 60cm 
+Material: ulje na platna
+Godina prizvd.: 2019
 
 
+69 - Abstrakcija
+Dimenzije: 60cm x 80cm
+Material: Ulje na platnu sa peskom
+Godina prizvd.: 2017
 
-70 - 
-Dimenzije:
-Material:	
-Godina prizvd.:	
+
+70 - Abstrakcija prvak
+Dimenzije: 80cm x 70cm 
+Material: Ulje na platnu
+Godina prizvd.: 2019

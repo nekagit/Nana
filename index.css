@@ -9564,7 +9564,7 @@ html, body {
 
 .page-headerr {
   margin-top: 33px;
-  padding: 21px 21px 11px 21px;
+  padding: 0px 21px 11px 21px;
   background-image: url("images/placeholders/IMG_20200305_155834.jpg");
   background-size: cover;
   background-repeat: no-repeat;
@@ -9572,6 +9572,8 @@ html, body {
           box-shadow: 3px 9px 33px 6px #000000;
   background-position: 50%;
   border: 3px solid rgba(0, 0, 0, 0.493);
+  height: 721px;
+  width: 100%;
 }
 
 .navbar-light .navbar-brand {
@@ -9629,38 +9631,20 @@ a:before, a:after, a > span:before, a > span:after {
   background-color: transparent;
   padding: 0px;
   margin-bottom: 0px;
-  height: 650px;
 }
 
-@media (min-width: 576px) {
-  .header-jumbotron {
-    height: 700px;
-  }
-}
-
-@media (min-width: 768px) {
-  .header-jumbotron {
-    height: 750px;
-  }
-}
-
-@media (min-width: 992px) {
-  .header-jumbotron {
-    height: 800px;
-  }
-}
-
-.header-jumbotron h2 {
-  font-style: italic;
+.header-jumbotron h4 {
+  padding: 0px 21px 21px 21px;
   color: black;
   font-family: 'Dancing Script', cursive;
-  font-size: 5rem;
+  font-size: 3rem;
 }
 
-.header-jumbotron h1 {
+.header-jumbotron h3 {
+  padding: 111px 21px 10px 21px;
   color: black;
   font-family: 'Dancing Script', cursive;
-  font-size: 5rem;
+  font-size: 3.3rem;
 }
 
 .social-iconf {
@@ -9745,8 +9729,9 @@ a:before, a:after, a > span:before, a > span:after {
 
 /* -------------------------------------------------------------------------------------------------------------- */
 .section-one {
-  padding-top: 470px;
-  padding-bottom: 320px;
+  padding-top: 300px;
+  padding-bottom: 200px;
+  font-family: 'Overlock', cursive;
 }
 
 .section-one h2 {
@@ -9769,9 +9754,15 @@ a:before, a:after, a > span:before, a > span:after {
 .fenster {
   width: 100%;
   max-height: 400px;
-  height: 400px;
+  height: 300px;
   -webkit-box-shadow: 3px 9px 33px 6px #000000;
           box-shadow: 3px 9px 33px 6px #000000;
+}
+
+@media (min-width: 576px) {
+  .fenster {
+    height: 400px;
+  }
 }
 
 @-webkit-keyframes fading {
@@ -9805,41 +9796,22 @@ a:before, a:after, a > span:before, a > span:after {
   width: fit-content;
 }
 
-.grenze {
-  height: 15px;
-  background-color: #861919;
-  border-radius: 41%;
-  -webkit-box-shadow: 3px 9px 33px 6px #000000;
-          box-shadow: 3px 9px 33px 6px #000000;
-}
-
 /* -------------------------------------------------------------------------------------------------------------- */
 .section-two {
-  padding-top: 270px;
-  padding-bottom: 320px;
+  padding-top: 200px;
+  padding-bottom: 200px;
 }
 
 .section-two h1 {
   font-family: 'Dancing Script', cursive;
+  padding: 10px;
 }
 
 .profilB {
-  float: right;
-  -webkit-box-shadow: 3px 9px 33px 6px #000000;
-          box-shadow: 3px 9px 33px 6px #000000;
-  border: 2px solid #861919;
-}
-
-.profil {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  float: right;
-  margin: 0 0 0 21px;
+  -webkit-box-shadow: 1px 6px 21px 3px #000000;
+          box-shadow: 1px 6px 21px 3px #000000;
+  border: 1px solid #861919;
+  width: 188px;
 }
 
 .titl {
@@ -9847,43 +9819,33 @@ a:before, a:after, a > span:before, a > span:after {
 }
 
 .biografija {
-  background-color: rgba(219, 108, 67, 0.933);
-  border: 2px solid #861919;
+  background-color: #df7853;
+  border: 1px solid #861919;
   width: 100%;
   -webkit-box-shadow: 3px 9px 33px 6px #000000;
           box-shadow: 3px 9px 33px 6px #000000;
+  padding: 30px;
+  font-family: 'Overlock', cursive;
+}
+
+.prt {
+  padding: 21px;
+}
+
+@media (min-width: 576px) {
+  .prt {
+    padding: 42px 21px 33px 21px;
+  }
 }
 
 /* -------------------------------------------------------------------------------------------------------------- */
 .section-three {
-  padding-top: 270px;
-  padding-bottom: 320px;
+  padding-top: 200px;
+  padding-bottom: 200px;
 }
 
 .section-three h1 {
   font-family: 'Dancing Script', cursive;
-}
-
-.title2 {
-  padding-right: 0px;
-}
-
-@media (min-width: 576px) {
-  .title2 {
-    padding-right: 0px;
-  }
-}
-
-@media (min-width: 768px) {
-  .title2 {
-    padding-right: 100px;
-  }
-}
-
-@media (min-width: 992px) {
-  .title2 {
-    padding-right: 133px;
-  }
 }
 
 #myVideo {
@@ -9893,19 +9855,20 @@ a:before, a:after, a > span:before, a > span:after {
 
 #myBt {
   border-radius: 50%;
-  padding: 10px;
+  padding: 14px;
+  margin: 20px;
 }
 
 .bx {
-  background-color: rgba(189, 127, 34, 0.939);
-  padding: 8px;
+  background-color: rgba(0, 0, 0, 0.46);
+  padding: 18px;
   -webkit-box-shadow: 3px 9px 33px 6px #000000;
           box-shadow: 3px 9px 33px 6px #000000;
-  border: 1px solid #861919;
 }
 
 .bx h1 {
   font-size: 2.0rem;
+  color: white;
   margin: auto;
 }
 
@@ -9918,7 +9881,6 @@ a:before, a:after, a > span:before, a > span:after {
 
 /* -------------------------------------------------------------------------------------------------------------- */
 .section-four {
-  padding-top: 220px;
   padding-bottom: 50px;
 }
 
@@ -9961,8 +9923,8 @@ a:before, a:after, a > span:before, a > span:after {
 
 /* -------------------------------------------------------------------------------------------------------------- */
 .section-five {
-  padding-top: 220px;
-  padding-bottom: 20px;
+  padding-top: 200px;
+  padding-bottom: 200px;
 }
 
 .section-five h1 {
