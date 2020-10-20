@@ -9552,7 +9552,6 @@ html, body {
 
 /* -------------------------------------------------------------------------------------------------------------- */
 .page-header {
-  margin-top: 33px;
   background-color: rgba(100, 10, 10, 0.664);
   padding: 21px 21px 11px 21px;
   background-size: cover;
@@ -9562,9 +9561,14 @@ html, body {
   background-position: 50%;
 }
 
+@media (min-width: 768px) {
+  .page-header {
+    margin-top: 33px;
+  }
+}
+
 .page-headerr {
-  margin-top: 33px;
-  padding: 0px 21px 11px 21px;
+  padding: 0px 21px 11px 22px;
   background-image: url("images/placeholders/IMG_20200305_155834.jpg");
   background-size: cover;
   background-repeat: no-repeat;
@@ -9574,6 +9578,12 @@ html, body {
   border: 3px solid rgba(0, 0, 0, 0.493);
   height: 721px;
   width: 100%;
+}
+
+@media (min-width: 768px) {
+  .page-headerr {
+    margin-top: 33px;
+  }
 }
 
 .navbar-light .navbar-brand {
@@ -9885,7 +9895,7 @@ a:before, a:after, a > span:before, a > span:after {
 }
 
 .section-four h1 {
-  margin-top: 80px;
+  margin-top: 50px;
   font-family: 'Dancing Script', cursive;
 }
 
@@ -9909,6 +9919,7 @@ a:before, a:after, a > span:before, a > span:after {
   -webkit-box-shadow: 3px 9px 33px 6px #000000;
           box-shadow: 3px 9px 33px 6px #000000;
   padding: 5px 5px 5px 5px;
+  margin-top: 200px;
 }
 
 .kontaktTitel {
@@ -9916,17 +9927,12 @@ a:before, a:after, a > span:before, a > span:after {
   padding: 15px 15px 15px 15px;
   -webkit-box-shadow: 3px 9px 33px 6px #000000;
           box-shadow: 3px 9px 33px 6px #000000;
-  margin-top: 200px;
+  margin-top: 100px;
   padding-top: 0px;
   border: 2px solid #861919;
 }
 
 /* -------------------------------------------------------------------------------------------------------------- */
-.section-five {
-  padding-top: 200px;
-  padding-bottom: 200px;
-}
-
 .section-five h1 {
   font-family: 'Dancing Script', cursive;
   color: #801717;
@@ -9948,6 +9954,11 @@ a:before, a:after, a > span:before, a > span:after {
           box-shadow: 3px 9px 33px 6px #000000;
 }
 
+.prolece:hover {
+  width: 89%;
+  height: 112px;
+}
+
 .jesen {
   background-image: url("images/placeholders/jesen.jpg");
   background-size: cover;
@@ -9961,6 +9972,11 @@ a:before, a:after, a > span:before, a > span:after {
   border-radius: 50%;
   -webkit-box-shadow: 3px 9px 33px 6px #000000;
           box-shadow: 3px 9px 33px 6px #000000;
+}
+
+.jesen:hover {
+  width: 89%;
+  height: 112px;
 }
 
 .abstrakcije {
@@ -9978,6 +9994,11 @@ a:before, a:after, a > span:before, a > span:after {
           box-shadow: 3px 9px 33px 6px #000000;
 }
 
+.abstrakcije:hover {
+  width: 89%;
+  height: 112px;
+}
+
 .zima {
   background-image: url("images/placeholders/zima.jpg");
   background-size: cover;
@@ -9991,6 +10012,11 @@ a:before, a:after, a > span:before, a > span:after {
   border-radius: 50%;
   -webkit-box-shadow: 3px 9px 33px 6px #000000;
           box-shadow: 3px 9px 33px 6px #000000;
+}
+
+.zima:hover {
+  width: 89%;
+  height: 112px;
 }
 
 .kultura {
@@ -10008,6 +10034,11 @@ a:before, a:after, a > span:before, a > span:after {
           box-shadow: 3px 9px 33px 6px #000000;
 }
 
+.kultura:hover {
+  width: 89%;
+  height: 112px;
+}
+
 .titlovi {
   color: white;
   font-size: 3.3rem;
@@ -10016,7 +10047,7 @@ a:before, a:after, a > span:before, a > span:after {
 }
 
 .titlovi:hover {
-  color: red;
+  font-size: 4.5rem;
 }
 
 #zadnji {
@@ -10045,9 +10076,8 @@ a:before, a:after, a > span:before, a > span:after {
 #prolec {
   background-color: rgba(0, 0, 0, 0.822);
   color: white;
-  padding-top: 50px;
-  margin-left: 33px;
-  margin-right: 33px;
+  padding-top: 33px;
+  margin: 121px 21px 121px 21px;
   border: 2px solid #861919;
   -webkit-box-shadow: 3px 9px 33px 6px #000000;
           box-shadow: 3px 9px 33px 6px #000000;
@@ -10056,9 +10086,8 @@ a:before, a:after, a > span:before, a > span:after {
 #jesec {
   background-color: rgba(0, 0, 0, 0.822);
   color: white;
-  padding-top: 50px;
-  margin-left: 33px;
-  margin-right: 33px;
+  padding-top: 33px;
+  margin: 121px 21px 121px 21px;
   border: 2px solid #861919;
   -webkit-box-shadow: 3px 9px 33px 6px #000000;
           box-shadow: 3px 9px 33px 6px #000000;
@@ -10067,9 +10096,8 @@ a:before, a:after, a > span:before, a > span:after {
 #absec {
   background-color: rgba(0, 0, 0, 0.822);
   color: white;
-  padding-top: 50px;
-  margin-left: 33px;
-  margin-right: 33px;
+  padding-top: 33px;
+  margin: 121px 21px 121px 21px;
   border: 2px solid #861919;
   -webkit-box-shadow: 3px 9px 33px 6px #000000;
           box-shadow: 3px 9px 33px 6px #000000;
@@ -10078,9 +10106,8 @@ a:before, a:after, a > span:before, a > span:after {
 #kultec {
   background-color: rgba(0, 0, 0, 0.822);
   color: white;
-  padding-top: 50px;
-  margin-left: 33px;
-  margin-right: 33px;
+  padding-top: 33px;
+  margin: 121px 21px 121px 21px;
   border: 2px solid #861919;
   -webkit-box-shadow: 3px 9px 33px 6px #000000;
           box-shadow: 3px 9px 33px 6px #000000;
@@ -10089,9 +10116,8 @@ a:before, a:after, a > span:before, a > span:after {
 #zimec {
   background-color: rgba(0, 0, 0, 0.822);
   color: white;
-  padding-top: 50px;
-  margin-left: 33px;
-  margin-right: 33px;
+  padding-top: 33px;
+  margin: 121px 21px 121px 21px;
   border: 2px solid #861919;
   -webkit-box-shadow: 3px 9px 33px 6px #000000;
           box-shadow: 3px 9px 33px 6px #000000;
@@ -10113,21 +10139,21 @@ a:before, a:after, a > span:before, a > span:after {
   }
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 1220px) {
   #cards {
     padding: 50px 50px 50px 50px;
   }
 }
 
-@media (min-width: 1420px) {
+@media (min-width: 1320px) {
   #cards {
     padding: 50px 100px 50px 100px;
   }
 }
 
-@media (min-width: 1600px) {
+@media (min-width: 1720px) {
   #cards {
-    padding: 50px 135px 50px 135px;
+    padding: 50px 150px 50px 150px;
   }
 }
 
@@ -10135,8 +10161,8 @@ a:before, a:after, a > span:before, a > span:after {
   background-color: rgba(0, 0, 0, 0.727);
   color: white;
   padding: 7xp;
-  margin: 21px;
-  font-size: 1.3rem;
+  margin: 9px;
+  font-size: 1.1rem;
 }
 
 #zbtn:hover {
@@ -10148,8 +10174,8 @@ a:before, a:after, a > span:before, a > span:after {
   background-color: rgba(0, 0, 0, 0.727);
   color: white;
   padding: 7xp;
-  margin: 21px;
-  font-size: 1.3rem;
+  margin: 9px;
+  font-size: 1.1rem;
 }
 
 #zbtN:hover {
@@ -10165,14 +10191,14 @@ a:before, a:after, a > span:before, a > span:after {
   margin-top: 200px;
   margin-bottom: 33px;
   background-color: rgba(0, 0, 0, 0.659);
-  padding: 10px;
-  height: 150px;
+  padding: 7px;
+  height: 125px;
   width: 300px;
   color: white;
 }
 
 #daten p {
-  font-size: 1.4rem;
+  font-size: 1.2rem;
   margin: auto;
 }
 
@@ -10246,9 +10272,9 @@ img {
 
 /* Number text (1/3 etc) */
 .numbertext {
-  color: #000000;
-  font-size: 2rem;
-  padding: 8px 31px 10px 0;
+  color: white;
+  font-size: 1.4rem;
+  padding: 8px;
   position: absolute;
   top: 0;
 }
@@ -10270,8 +10296,8 @@ img {
 }
 
 .row {
-  padding-left: 15px;
-  padding-right: 15px;
+  padding-left: 5px;
+  padding-right: 5px;
 }
 
 .row:after {
@@ -10289,7 +10315,7 @@ img {
 /* Add a transparency effect for thumnbail images */
 .demo {
   opacity: 0.6;
-  height: 88px;
+  height: 60px;
 }
 
 @media (min-width: 768px) {
