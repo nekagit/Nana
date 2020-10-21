@@ -1,8 +1,3 @@
-<!--  
-  Zeile 32 referece fuer slike einfuegen
-  Form abschicken implementieren
- -->
-      
 <!DOCTYPE html>
 <html lang="de">
   <head>
@@ -47,9 +42,9 @@
       </header>
         <section >
           <div class="section-one container">
-            <div class="row reihe pb-sm-5 pt-sm-5 pl-sm-5 pr-sm-5 pb-4 pt-5 ml-1 mr-1" id="rad">
+            <div class="row reihe" id="rad">
               <div class="col-lg-6 col-12">
-                <div class="" >
+                <div class="mt-4">
                   <img class="mySlides mx-auto fenster" src="images/placeholders/diashow/1.jpg">
                   <img class="mySlides mx-auto fenster" src="images/placeholders/diashow/2.jpg">
                   <img class="mySlides mx-auto fenster" src="images/placeholders/diashow/9.jpg">
@@ -60,43 +55,51 @@
                   <img class="mySlides mx-auto fenster" src="images/placeholders/diashow/6.jpg">
                   <img class="mySlides mx-auto fenster" src="images/placeholders/diashow/10.jpg">
                   <img class="mySlides mx-auto fenster" src="images/placeholders/diashow/7.jpg">         
-              </div>
+                </div>
               </div>
               <div class="col-lg-6 col-12 mt-5 mt-sm-3">
                 <h2 class="text-center">Umetnički rad</h3>
                 <p class="text-center font-italic" style="font-size: 1.3rem; color:  rgb(107, 14, 14); ">Ovde je moj Top 10</p> 
-                <p class="mt-3 text-center pl-2 pr-2" style="font-size: 1.2rem;">Nešto o mom umetničkom radu.<br>
+                <p class="mt-3 text-center pl-3 pr-3" style="font-size: 1.3rem;">Nešto o mom umetničkom radu.<br>
                   Ideja o stvaranju neke slike i inspiracije zavise uvek od tog momenta kako se ja osecam, zato su i različite tehnike i motivi.
                   Moja vizija je da postignem najveći mogući reljef na platnu ili na nekoj drvenoj ploči pa uključim malo fantazije, 
                   kao razne kombinacije  ulja, akril, drvo, pesak neprosejan, prosejanu i smesu za fasad kristale i razne druge stvari i naravno raspoloženje je na toj slici najvise predstavljeno.</p>
                 <div class="text-center">
-                <a href="slike.html"><span class="mt-3 btn btn-outline-primary" >Slike</span> </a>
+                <a href="slike.html"><span class="btn btn-outline-primary" >Slike</span> </a>
               </div>
             </div>
             </div>
           </div>
         </section>
-
+        
         <section id="ja">
           <div class="section-two container">
-            <div class="biografija d-flex flex-column" >
+            <div class="biografija row">
+              <div class="col-12 order-0">
                 <h1 style="font-size: 3.3rem;" class="text-center">O meni i mom životu!</h1>
                 <p class=" text-center font-italic pb-2" style="font-size: 1.3rem; color:  rgb(107, 14, 14);">Najveći uspeh</p> 
-                <img class="profilB mx-auto " src="images/placeholders/20170225_114644.jpg">   
-                <a class="mx-auto pt-3 mt-3" target="_blank" href="https://www.serbianaart.com/artists/stankovic-dragoslava-dragica/"><span class="btn btn-outline-primary biog" >Moja biografija</span> </a>
-              <p class="text-center prt" style="font-size: 1.2rem;"> 
-                Dragoslava Stanković – Dragica rođena je 23. aprila 1950. godine. 
-                Do punoletstva živela je u Glušcima, u Mačvi.
-                 Još u osnovnoj školi rado je slikala i pokazivala veliko interesovanje za umetnost. U avgustu 1971
-                otišla je na rad u Zapadnu Nemačku, gde se ostvarila i kao slikar.
-                Da bi se povezala sa slikarskim krugovima obilazila je galerije i muzeje, i upijala razne tehnike i umeće poznatih umetnika.
-                Vrhunac mog uspeha dozivljavam kroz mnogobrojna izlaganja po Evropi, Americi, Kanadi.
-                 Najveca priznanja su mnogobrojne nagrade i povelja. 
-              </p>
+              </div>
+                <div class="col-12 col-sm-4 order-1 order-lg-2 pr-lg-5">
+                <img class="profilB" src="images/placeholders/20170225_114644.jpg">  
+                <a  target="_blank" href="https://www.serbianaart.com/artists/stankovic-dragoslava-dragica/"  style="text-decoration: none;" ><span class="btn btn-outline-primary biog" >Moja biografija</span> </a>
+              </div>
+              <div class="col-12 col-sm-8 order-2 order-lg-1 pl-lg-5">
+                <p class="text-center prt" style="font-size: 1.3rem;"> 
+                  Dragoslava Stanković – Dragica rođena je 23. aprila 1950 godine. <br>
+                  Do punoletstva živela je u Glušcima, u Mačvi.
+                  Još u osnovnoj školi rado je slikala i pokazivala veliko interesovanje za umetnost. 
+                  <br>U avgustu 1971
+                  otišla je na rad u Zapadnu Nemačku, gde se ostvarila i kao slikar.
+                  Da bi se povezala sa slikarskim krugovima obilazila je galerije i muzeje, i upijala razne tehnike i umeće poznatih umetnika.
+                  Vrhunac mog uspeha dozivljavam kroz mnogobrojna izlaganja po Evropi, Americi, Kanadi.
+                  Najveca priznanja su mnogobrojne nagrade i povelja. Do kraja 2016 godine samostalnu izložbu prirediće i u “Amsterdam Whitney Gallery” u Njujorku, a u leto 2017. 2019.14.10 samostalna Novom Novom Sadu MZ. Gavrilo Pricip
+                  <p class="text-center" style="font-size: 2rem;">... vise pod stranici "Moja biografija"</p>
+                </p> 
+              </div>
+              </div>
             </div>
-          </div>
-        </section>
-        <section>
+          </section>
+          <section>
           <div class="container section-three">
             <div class="bx" id="atelje">
             <video muted loop id="myVideo">
@@ -139,11 +142,9 @@
         </div>
       </section>
       
-      <footer class="footer pt-md-3 pb-md-2">
-        <div class="container-fluid">
-          <div class="row">
-            <div class="col-12 col-md-4">
-              <p class="mt-3 text-center" style="font-size: 1.3rem;">© site by Nenad Kalicanin</p>
+      <footer class="footer ">
+        <div class="container">
+              <p class="mt-3 text-center" style="font-size: 1.3rem;">© Nenad Kalicanin</p>
             </div>
             
           </div>
