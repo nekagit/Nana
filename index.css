@@ -9552,7 +9552,7 @@ html, body {
 
 /* -------------------------------------------------------------------------------------------------------------- */
 .page-header {
-  background-color: rgba(100, 10, 10, 0.664);
+  background-color: #861919;
   padding: 21px 21px 11px 21px;
   background-size: cover;
   background-repeat: no-repeat;
@@ -9568,6 +9568,7 @@ html, body {
 }
 
 .page-headerr {
+  margin-top: 33px;
   padding: 0px 21px 11px 22px;
   background-image: url("images/placeholders/IMG_20200305_155834.jpg");
   background-size: cover;
@@ -9578,12 +9579,6 @@ html, body {
   border: 3px solid rgba(0, 0, 0, 0.493);
   height: 721px;
   width: 100%;
-}
-
-@media (min-width: 768px) {
-  .page-headerr {
-    margin-top: 33px;
-  }
 }
 
 .navbar-light .navbar-brand {
@@ -9639,22 +9634,20 @@ a:before, a:after, a > span:before, a > span:after {
 
 .header-jumbotron {
   background-color: transparent;
-  padding: 0px;
-  margin-bottom: 0px;
+  padding: 33px;
+  margin-top: 133px;
 }
 
-.header-jumbotron h4 {
-  padding: 0px 21px 21px 21px;
+.header-jumbotron h1 {
   color: black;
   font-family: 'Dancing Script', cursive;
   font-size: 3rem;
 }
 
-.header-jumbotron h3 {
-  padding: 111px 21px 10px 21px;
-  color: black;
-  font-family: 'Dancing Script', cursive;
-  font-size: 3.3rem;
+@media (min-width: 992px) {
+  .header-jumbotron h1 {
+    font-size: 5rem;
+  }
 }
 
 .social-iconf {
@@ -9739,8 +9732,8 @@ a:before, a:after, a > span:before, a > span:after {
 
 /* -------------------------------------------------------------------------------------------------------------- */
 .section-one {
-  padding-top: 300px;
-  padding-bottom: 200px;
+  padding-top: 500px;
+  padding-bottom: 400px;
   font-family: 'Overlock', cursive;
 }
 
@@ -9751,9 +9744,9 @@ a:before, a:after, a > span:before, a > span:after {
 
 .reihe {
   margin: auto;
-  padding: 21px;
+  padding: 30px;
+  padding-left: 42px;
   background-color: rgba(245, 150, 95, 0.926);
-  border: 2px solid #861919;
   -webkit-box-shadow: 3px 9px 33px 6px #000000;
           box-shadow: 3px 9px 33px 6px #000000;
 }
@@ -9810,8 +9803,7 @@ a:before, a:after, a > span:before, a > span:after {
 
 /* -------------------------------------------------------------------------------------------------------------- */
 .section-two {
-  padding-top: 200px;
-  padding-bottom: 200px;
+  padding-bottom: 400px;
 }
 
 .section-two h1 {
@@ -9822,7 +9814,6 @@ a:before, a:after, a > span:before, a > span:after {
 .profilB {
   -webkit-box-shadow: 1px 6px 21px 3px #000000;
           box-shadow: 1px 6px 21px 3px #000000;
-  border: 1px solid #861919;
   width: 188px;
   height: 288px;
   margin: auto;
@@ -9844,7 +9835,6 @@ a:before, a:after, a > span:before, a > span:after {
 
 .biografija {
   background-color: #df7853;
-  border: 1px solid #861919;
   width: 100%;
   -webkit-box-shadow: 3px 9px 33px 6px #000000;
           box-shadow: 3px 9px 33px 6px #000000;
@@ -9865,8 +9855,7 @@ a:before, a:after, a > span:before, a > span:after {
 
 /* -------------------------------------------------------------------------------------------------------------- */
 .section-three {
-  padding-top: 200px;
-  padding-bottom: 200px;
+  padding-bottom: 100px;
 }
 
 .section-three h1 {
@@ -9933,24 +9922,23 @@ a:before, a:after, a > span:before, a > span:after {
   background-color: rgba(255, 255, 255, 0.666);
   -webkit-box-shadow: 3px 9px 33px 6px #000000;
           box-shadow: 3px 9px 33px 6px #000000;
-  padding: 5px 5px 5px 5px;
+  padding: 21px;
   margin-top: 200px;
 }
 
 .kontaktTitel {
   background-color: rgba(255, 255, 255, 0.666);
-  padding: 15px 15px 15px 15px;
+  padding: 21px;
+  padding-top: 10px;
   -webkit-box-shadow: 3px 9px 33px 6px #000000;
           box-shadow: 3px 9px 33px 6px #000000;
   margin-top: 100px;
-  padding-top: 0px;
-  border: 2px solid #861919;
 }
 
 /* -------------------------------------------------------------------------------------------------------------- */
 .section-five h1 {
   font-family: 'Dancing Script', cursive;
-  color: #801717;
+  color: #861919;
   font-size: 4rem;
 }
 
@@ -9969,15 +9957,20 @@ a:before, a:after, a > span:before, a > span:after {
           box-shadow: 3px 9px 33px 6px #000000;
 }
 
+@media (min-width: 768px) {
+  .prolece {
+    background-image: none;
+  }
+}
+
 .prolece:hover {
-  width: 89%;
-  height: 112px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url("images/placeholders/prolece.jpg");
 }
 
 .jesen {
   background-image: url("images/placeholders/jesen.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
   width: 88%;
   height: 111px;
   padding: 21px 21px 21px 21px;
@@ -9989,15 +9982,20 @@ a:before, a:after, a > span:before, a > span:after {
           box-shadow: 3px 9px 33px 6px #000000;
 }
 
+@media (min-width: 768px) {
+  .jesen {
+    background-image: none;
+  }
+}
+
 .jesen:hover {
-  width: 89%;
-  height: 112px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url("images/placeholders/jesen.jpg");
 }
 
 .abstrakcije {
   background-image: url("images/placeholders/abstr.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
   width: 88%;
   height: 111px;
   padding: 21px 21px 21px 21px;
@@ -10009,15 +10007,20 @@ a:before, a:after, a > span:before, a > span:after {
           box-shadow: 3px 9px 33px 6px #000000;
 }
 
+@media (min-width: 768px) {
+  .abstrakcije {
+    background-image: none;
+  }
+}
+
 .abstrakcije:hover {
-  width: 89%;
-  height: 112px;
+  background-image: url("images/placeholders/abstr.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .zima {
   background-image: url("images/placeholders/zima.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
   width: 88%;
   height: 111px;
   padding: 21px 21px 21px 21px;
@@ -10029,15 +10032,20 @@ a:before, a:after, a > span:before, a > span:after {
           box-shadow: 3px 9px 33px 6px #000000;
 }
 
+@media (min-width: 768px) {
+  .zima {
+    background-image: none;
+  }
+}
+
 .zima:hover {
-  width: 89%;
-  height: 112px;
+  background-image: url("images/placeholders/zima.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .kultura {
   background-image: url("images/placeholders/kult.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
   width: 88%;
   height: 111px;
   padding: 21px 21px 21px 21px;
@@ -10049,9 +10057,16 @@ a:before, a:after, a > span:before, a > span:after {
           box-shadow: 3px 9px 33px 6px #000000;
 }
 
+@media (min-width: 768px) {
+  .kultura {
+    background-image: none;
+  }
+}
+
 .kultura:hover {
-  width: 89%;
-  height: 112px;
+  background-image: url("images/placeholders/kult.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .titlovi {
@@ -10082,7 +10097,6 @@ a:before, a:after, a > span:before, a > span:after {
     margin-left: 150px;
     margin-right: 150px;
     margin-bottom: 50px;
-    border: 2px solid #861919;
     -webkit-box-shadow: 3px 9px 33px 6px #000000;
             box-shadow: 3px 9px 33px 6px #000000;
   }
@@ -10176,9 +10190,9 @@ a:before, a:after, a > span:before, a > span:after {
 #zbtn {
   background-color: rgba(0, 0, 0, 0.727);
   color: white;
-  padding: 7xp;
-  margin: 9px;
-  font-size: 1.1rem;
+  padding: 6xp;
+  margin: 8px;
+  font-size: 1rem;
 }
 
 #zbtn:hover {
