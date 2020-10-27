@@ -9519,6 +9519,8 @@ a.text-dark:hover, a.text-dark:focus {
 html, body {
   max-width: 100%;
   overflow-x: hidden;
+  margin: 0;
+  padding: 0;
 }
 
 #myBtn {
@@ -9568,7 +9570,6 @@ html, body {
 }
 
 .page-headerr {
-  padding: 0px 21px 11px 22px;
   background-image: url("images/placeholders/IMG_20200305_155834.jpg");
   background-size: cover;
   background-repeat: no-repeat;
@@ -9576,8 +9577,8 @@ html, body {
           box-shadow: 3px 9px 33px 6px #000000;
   background-position: 50%;
   border: 3px solid rgba(0, 0, 0, 0.493);
-  height: 721px;
-  width: 100%;
+  height: 688px;
+  width: 90%;
 }
 
 @media (min-width: 768px) {
@@ -9748,7 +9749,7 @@ a:before, a:after, a > span:before, a > span:after {
 
 /* -------------------------------------------------------------------------------------------------------------- */
 .section-one {
-  padding-top: 333px;
+  padding-top: 300px;
   font-family: 'Overlock', cursive;
 }
 
@@ -9761,14 +9762,6 @@ a:before, a:after, a > span:before, a > span:after {
 .section-one h2 {
   font-family: 'Dancing Script', cursive;
   font-size: 2.9rem;
-}
-
-.reihe {
-  margin: auto;
-  padding: 11px;
-  background-color: rgba(245, 150, 95, 0.926);
-  -webkit-box-shadow: 3px 9px 33px 6px #000000;
-          box-shadow: 3px 9px 33px 6px #000000;
 }
 
 .fenster {
@@ -9813,11 +9806,84 @@ a:before, a:after, a > span:before, a > span:after {
   }
 }
 
-.round {
-  border: 2px solid #861919;
-  width: -webkit-fit-content;
-  width: -moz-fit-content;
-  width: fit-content;
+.reihe {
+  background-color: rgba(245, 150, 95, 0.926);
+  -webkit-box-shadow: 3px 9px 33px 6px #000000;
+          box-shadow: 3px 9px 33px 6px #000000;
+  width: 90%;
+  margin: auto;
+  -webkit-transition: all 1s;
+  transition: all 1s;
+}
+
+.reihe:hover {
+  background-color: #df7853;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  border: 3px solid rgba(245, 150, 95, 0.926);
+}
+
+.card {
+  position: absolute;
+  top: 133%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  width: 300px;
+  height: 400px;
+  -webkit-transform-style: preserve-3d;
+          transform-style: preserve-3d;
+  -webkit-perspective: 600px;
+          perspective: 600px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+@media (min-width: 768px) {
+  .card {
+    width: 500px;
+    height: 500px;
+  }
+}
+
+.card .front {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(245, 150, 95, 0.926);
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+  -webkit-transform: rotateX(0deg);
+          transform: rotateX(0deg);
+  -webkit-transition: 0.6s;
+  transition: 0.6s;
+}
+
+.card .back {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(245, 150, 95, 0.926);
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+  -webkit-transform: rotateX(180deg);
+          transform: rotateX(180deg);
+  -webkit-transition: 0.6s;
+  transition: 0.6s;
+}
+
+.card:hover .front {
+  -webkit-transform: rotateX(-180deg);
+          transform: rotateX(-180deg);
+}
+
+.card:hover .back {
+  -webkit-transform: rotateX(0deg);
+          transform: rotateX(0deg);
 }
 
 /* -------------------------------------------------------------------------------------------------------------- */
@@ -9860,27 +9926,36 @@ a:before, a:after, a > span:before, a > span:after {
 
 .biografija {
   background-color: #df7853;
-  width: 100%;
+  width: 90%;
   -webkit-box-shadow: 3px 9px 33px 6px #000000;
           box-shadow: 3px 9px 33px 6px #000000;
-  padding: 21px;
+  padding: 11px;
   font-family: 'Overlock', cursive;
   margin: auto;
+  -webkit-transition: all 1s;
+  transition: all 1s;
+}
+
+.biografija:hover {
+  background-color: rgba(245, 150, 95, 0.926);
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  border: 3px solid #df7853;
 }
 
 .prt {
-  padding: 21px;
+  padding: 8px;
 }
 
 @media (min-width: 576px) {
   .prt {
-    padding: 0px 21px 0px 21px;
+    padding: 0px 11px 0px 11px;
   }
 }
 
 /* -------------------------------------------------------------------------------------------------------------- */
 .section-three {
-  padding-top: 333px;
+  padding-top: 300px;
 }
 
 @media (min-width: 768px) {
@@ -9900,13 +9975,15 @@ a:before, a:after, a > span:before, a > span:after {
 
 #myBt {
   border-radius: 50%;
-  padding: 14px;
+  padding: 11px;
   margin: 20px;
 }
 
 .bx {
   background-color: rgba(0, 0, 0, 0.46);
-  padding: 18px;
+  padding: 6px;
+  width: 90%;
+  margin: auto;
   -webkit-box-shadow: 3px 9px 33px 6px #000000;
           box-shadow: 3px 9px 33px 6px #000000;
 }
@@ -9926,7 +10003,13 @@ a:before, a:after, a > span:before, a > span:after {
 
 /* -------------------------------------------------------------------------------------------------------------- */
 .section-four {
-  padding-bottom: 50px;
+  padding-top: 300px;
+}
+
+@media (min-width: 768px) {
+  .section-four {
+    padding-top: 500px;
+  }
 }
 
 .section-four h1 {
@@ -9954,7 +10037,8 @@ a:before, a:after, a > span:before, a > span:after {
   -webkit-box-shadow: 3px 9px 33px 6px #000000;
           box-shadow: 3px 9px 33px 6px #000000;
   padding: 21px;
-  margin-top: 200px;
+  width: 90%;
+  margin: auto;
 }
 
 .kontaktTitel {
@@ -9963,6 +10047,8 @@ a:before, a:after, a > span:before, a > span:after {
   padding-top: 10px;
   -webkit-box-shadow: 3px 9px 33px 6px #000000;
           box-shadow: 3px 9px 33px 6px #000000;
+  width: 90%;
+  margin: auto;
   margin-top: 100px;
 }
 

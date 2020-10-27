@@ -7,6 +7,9 @@ $box-shadow: 3px 9px 33px 6px #000000;
 html, body {
   max-width: 100%;
   overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+
 }
 #myBtn {
   display: none; /* Hidden by default */
@@ -42,15 +45,14 @@ html, body {
   @include media-breakpoint-up(md) {
     margin-top: 33px;
   }
-  padding: 0px 21px 11px 22px; 
   background-image: url("images/placeholders/IMG_20200305_155834.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   box-shadow: $box-shadow;
   background-position: 50%;
   border: 3px solid rgba(0, 0, 0, 0.493);
-  height: 721px;
-  width: 100%;
+  height: 688px;
+  width: 90%;
    
 }
 
@@ -193,7 +195,7 @@ a:before, a:after, a > span:before, a > span:after {
 /* -------------------------------------------------------------------------------------------------------------- */
 
 .section-one { 
-  padding-top: 333px;
+  padding-top: 300px;
   @include media-breakpoint-up(md) {
     padding-top: $section-padding + 100px;
   }
@@ -203,13 +205,6 @@ a:before, a:after, a > span:before, a > span:after {
   font-family: 'Dancing Script', cursive; 
   font-size: 2.9rem;
   }  
-}
-
-.reihe {
-  margin: auto;
-  padding: 11px;
-  background-color: $card-color; 
-  box-shadow: $box-shadow;
 }
 
 .fenster {
@@ -231,13 +226,63 @@ a:before, a:after, a > span:before, a > span:after {
   100%{opacity:0}
 }
 
-.round {
-  border: 2px solid $primary;
-  width: fit-content;
+.reihe {
+  background-color: $card-color; 
+  box-shadow: $box-shadow;
+  width: 90%;
+  margin: auto;
+  transition: all 1s;
 }
 
+.reihe:hover {
+  background-color: rgb(223, 120, 83);
+  box-shadow: none;
+  border: 3px solid $card-color;
+}
 
-
+.card {
+  position: absolute;
+  top: 133%;
+  left: 50%; 
+  transform: translate(-50%, -50%);
+  width: 300px;
+  height: 400px;
+  @include media-breakpoint-up(md) {
+    width: 500px;
+    height: 500px;
+  }
+  transform-style: preserve-3d;
+  perspective: 600px;
+  transition: 0.5s;
+}
+.card .front {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: $card-color; 
+  backface-visibility: hidden;
+  transform: rotateX(0deg);
+  transition: 0.6s;
+}
+.card .back {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: $card-color; 
+  backface-visibility: hidden;
+  transform: rotateX(180deg);
+  transition: 0.6s;
+}
+.card:hover .front {
+  transform: rotateX(-180deg);
+}
+.card:hover .back {
+  transform: rotateX(0deg);
+}
 /* -------------------------------------------------------------------------------------------------------------- */
 
 .section-two {
@@ -274,23 +319,29 @@ a:before, a:after, a > span:before, a > span:after {
 
 .biografija {
   background-color: rgb(223, 120, 83);
-  width: 100%;
+  width: 90%;
   box-shadow: $box-shadow;
-  padding: 21px;
+  padding: 11px;
   font-family: 'Overlock', cursive;
   margin: auto;
+  transition: all 1s;
+}
+.biografija:hover {
+  background-color: $card-color; 
+  box-shadow: none;
+  border: 3px solid rgb(223, 120, 83);
 }
 
 .prt {
-  padding: 21px;
+  padding: 8px;
   @include media-breakpoint-up(sm) {
-    padding: 0px 21px 0px 21px;
+    padding: 0px 11px 0px 11px;
   }
 }
 
 /* -------------------------------------------------------------------------------------------------------------- */
 .section-three{
-  padding-top: 333px;
+  padding-top: 300px;
   @include media-breakpoint-up(md) {
     padding-top: $section-padding + 100px;
   }
@@ -308,13 +359,15 @@ a:before, a:after, a > span:before, a > span:after {
 
 #myBt {
   border-radius: 50%; 
-  padding: 14px;
+  padding: 11px;
   margin: 20px;
 }
 
 .bx {
   background-color: rgba(0, 0, 0, 0.46);
-  padding: 18px;
+  padding: 6px;
+  width: 90%;
+  margin: auto;
   box-shadow: $box-shadow; 
 
   h1 {
@@ -331,7 +384,10 @@ a:before, a:after, a > span:before, a > span:after {
 /* -------------------------------------------------------------------------------------------------------------- */
 
 .section-four{
-  padding-bottom: 50px;
+  padding-top: 300px;
+  @include media-breakpoint-up(md) {
+    padding-top: $section-padding + 100px;
+  }
 
   h1 {
     margin-top: 50px;
@@ -358,7 +414,8 @@ a:before, a:after, a > span:before, a > span:after {
   background-color:rgba(255, 255, 255, 0.666);
   box-shadow: $box-shadow;
   padding: 21px;
-  margin-top: 200px;
+  width: 90%;
+  margin: auto;
 }
 
 .kontaktTitel {
@@ -366,6 +423,8 @@ a:before, a:after, a > span:before, a > span:after {
   padding: 21px;
   padding-top: 10px;
   box-shadow: $box-shadow;
+  width: 90%;
+  margin: auto;
   margin-top: 100px;
 }
 
