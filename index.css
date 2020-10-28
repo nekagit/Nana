@@ -9809,7 +9809,7 @@ a:before, a:after, a > span:before, a > span:after {
 .reihe {
   border: 0.5px solid rgba(255, 255, 255, 0.542);
   color: rgba(255, 255, 255, 0.522);
-  width: 360px;
+  width: 90%;
   margin: auto;
   -webkit-transition: all 0.666s;
   transition: all 0.666s;
@@ -9938,7 +9938,7 @@ a:before, a:after, a > span:before, a > span:after {
 .biografija {
   border: 0.5px solid rgba(255, 255, 255, 0.542);
   color: rgba(255, 255, 255, 0.522);
-  width: 360px;
+  width: 90%;
   padding: 13px;
   font-family: 'Overlock', cursive;
   margin: auto;
