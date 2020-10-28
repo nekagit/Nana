@@ -9749,7 +9749,7 @@ a:before, a:after, a > span:before, a > span:after {
 
 /* -------------------------------------------------------------------------------------------------------------- */
 .section-one {
-  padding-top: 300px;
+  padding-top: 200px;
   font-family: 'Overlock', cursive;
 }
 
@@ -9807,93 +9807,94 @@ a:before, a:after, a > span:before, a > span:after {
 }
 
 .reihe {
-  background-color: rgba(245, 150, 95, 0.926);
-  -webkit-box-shadow: 3px 9px 33px 6px #000000;
-          box-shadow: 3px 9px 33px 6px #000000;
-  width: 90%;
+  border: 0.5px solid rgba(255, 255, 255, 0.542);
+  color: rgba(255, 255, 255, 0.522);
+  width: 360px;
   margin: auto;
-  -webkit-transition: all 1s;
-  transition: all 1s;
+  -webkit-transition: all 0.666s;
+  transition: all 0.666s;
 }
 
-.reihe:hover {
-  background-color: #df7853;
-  -webkit-box-shadow: none;
-          box-shadow: none;
-  border: 3px solid rgba(245, 150, 95, 0.926);
-}
-
-.card {
-  position: absolute;
-  top: 133%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
-  width: 300px;
-  height: 400px;
-  -webkit-transform-style: preserve-3d;
-          transform-style: preserve-3d;
-  -webkit-perspective: 600px;
-          perspective: 600px;
-  -webkit-transition: 0.5s;
-  transition: 0.5s;
-}
-
-@media (min-width: 768px) {
-  .card {
-    width: 500px;
-    height: 500px;
+@media (min-width: 576px) {
+  .reihe {
+    width: 550px;
   }
 }
 
+.reihe:hover {
+  color: black;
+  background-color: #df7853;
+  border: 1px solid #e66637;
+  -webkit-box-shadow: 3px 9px 33px 6px #000000;
+          box-shadow: 3px 9px 33px 6px #000000;
+}
+
+.pukt {
+  font-size: 1.1rem;
+  color: rgba(0, 0, 0, 0.61);
+  border: 1px solid rgba(0, 0, 0, 0.652);
+  padding: 3px;
+  margin: auto;
+}
+
+.pukt:hover {
+  color: white;
+  border: 1px solid black;
+  background-color: black;
+}
+
+/* -
+.card {
+  position: absolute;
+  top: 133%;
+  left: 50%; 
+  transform: translate(-50%, -50%);
+  width: 300px;
+  height: 400px;
+  @include media-breakpoint-up(md) {
+    width: 500px;
+    height: 500px;
+  }
+  transform-style: preserve-3d;
+  perspective: 600px;
+  transition: 0.666s;
+}
 .card .front {
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(245, 150, 95, 0.926);
-  -webkit-backface-visibility: hidden;
-          backface-visibility: hidden;
-  -webkit-transform: rotateX(0deg);
-          transform: rotateX(0deg);
-  -webkit-transition: 0.6s;
+  background-color: $card-color; 
+  backface-visibility: hidden;
+  transform: rotateX(0deg);
   transition: 0.6s;
 }
-
 .card .back {
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(245, 150, 95, 0.926);
-  -webkit-backface-visibility: hidden;
-          backface-visibility: hidden;
-  -webkit-transform: rotateX(180deg);
-          transform: rotateX(180deg);
-  -webkit-transition: 0.6s;
-  transition: 0.6s;
+  background-color: $card-color; 
+  backface-visibility: hidden;
+  transform: rotateX(180deg);
+  transition: 0.666s;
 }
-
 .card:hover .front {
-  -webkit-transform: rotateX(-180deg);
-          transform: rotateX(-180deg);
+  transform: rotateX(-180deg);
 }
-
 .card:hover .back {
-  -webkit-transform: rotateX(0deg);
-          transform: rotateX(0deg);
+  transform: rotateX(0deg);
 }
-
-/* -------------------------------------------------------------------------------------------------------------- */
+------------------------------------------------------------------------------------------------------------- */
 .section-two {
-  padding-top: 333px;
+  padding-top: 200px;
 }
 
 @media (min-width: 768px) {
   .section-two {
-    padding-top: 500px;
+    padding-top: 550px;
   }
 }
 
@@ -9903,13 +9904,23 @@ a:before, a:after, a > span:before, a > span:after {
 }
 
 .profilB {
-  -webkit-box-shadow: 1px 6px 21px 3px #000000;
-          box-shadow: 1px 6px 21px 3px #000000;
   width: 188px;
   height: 288px;
   margin: auto;
   display: block;
   margin-bottom: 33px;
+  -webkit-transition: all 0.666s;
+  transition: all 0.666s;
+}
+
+.profilB:hover {
+  -webkit-box-shadow: 1px 6px 21px 3px #000000;
+          box-shadow: 1px 6px 21px 3px #000000;
+}
+
+.hover {
+  -webkit-box-shadow: 1px 6px 21px 3px #000000;
+          box-shadow: 1px 6px 21px 3px #000000;
 }
 
 .biog {
@@ -9925,22 +9936,27 @@ a:before, a:after, a > span:before, a > span:after {
 }
 
 .biografija {
-  background-color: #df7853;
-  width: 90%;
-  -webkit-box-shadow: 3px 9px 33px 6px #000000;
-          box-shadow: 3px 9px 33px 6px #000000;
-  padding: 11px;
+  border: 0.5px solid rgba(255, 255, 255, 0.542);
+  color: rgba(255, 255, 255, 0.522);
+  width: 360px;
+  padding: 13px;
   font-family: 'Overlock', cursive;
   margin: auto;
-  -webkit-transition: all 1s;
-  transition: all 1s;
+  -webkit-transition: all 0.666s;
+  transition: all 0.666s;
+}
+
+@media (min-width: 768px) {
+  .biografija {
+    width: 550px;
+  }
 }
 
 .biografija:hover {
-  background-color: rgba(245, 150, 95, 0.926);
-  -webkit-box-shadow: none;
-          box-shadow: none;
-  border: 3px solid #df7853;
+  color: black;
+  background-color: #df7853;
+  -webkit-box-shadow: 3px 9px 33px 6px #000000;
+          box-shadow: 3px 9px 33px 6px #000000;
 }
 
 .prt {
@@ -9984,8 +10000,8 @@ a:before, a:after, a > span:before, a > span:after {
   padding: 6px;
   width: 90%;
   margin: auto;
-  -webkit-box-shadow: 3px 9px 33px 6px #000000;
-          box-shadow: 3px 9px 33px 6px #000000;
+  -webkit-transition: all 0.666s;
+  transition: all 0.666s;
 }
 
 .bx h1 {
@@ -10001,6 +10017,11 @@ a:before, a:after, a > span:before, a > span:after {
   }
 }
 
+.bx:hover {
+  -webkit-box-shadow: 3px 9px 33px 6px #000000;
+          box-shadow: 3px 9px 33px 6px #000000;
+}
+
 /* -------------------------------------------------------------------------------------------------------------- */
 .section-four {
   padding-top: 300px;
@@ -10008,7 +10029,7 @@ a:before, a:after, a > span:before, a > span:after {
 
 @media (min-width: 768px) {
   .section-four {
-    padding-top: 500px;
+    padding-top: 400px;
   }
 }
 
@@ -10033,20 +10054,16 @@ a:before, a:after, a > span:before, a > span:after {
 }
 
 .kontaktText {
-  background-color: rgba(255, 255, 255, 0.666);
-  -webkit-box-shadow: 3px 9px 33px 6px #000000;
-          box-shadow: 3px 9px 33px 6px #000000;
+  background-color: rgba(255, 255, 255, 0.919);
   padding: 21px;
   width: 90%;
   margin: auto;
 }
 
 .kontaktTitel {
-  background-color: rgba(255, 255, 255, 0.666);
+  background-color: rgba(255, 255, 255, 0.892);
   padding: 21px;
   padding-top: 10px;
-  -webkit-box-shadow: 3px 9px 33px 6px #000000;
-          box-shadow: 3px 9px 33px 6px #000000;
   width: 90%;
   margin: auto;
   margin-top: 100px;

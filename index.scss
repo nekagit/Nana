@@ -195,7 +195,7 @@ a:before, a:after, a > span:before, a > span:after {
 /* -------------------------------------------------------------------------------------------------------------- */
 
 .section-one { 
-  padding-top: 300px;
+  padding-top: 200px;
   @include media-breakpoint-up(md) {
     padding-top: $section-padding + 100px;
   }
@@ -227,19 +227,38 @@ a:before, a:after, a > span:before, a > span:after {
 }
 
 .reihe {
-  background-color: $card-color; 
-  box-shadow: $box-shadow;
-  width: 90%;
+  border: 0.5px solid rgba(255, 255, 255, 0.542);
+  color: rgba(255, 255, 255, 0.522);
+  width: 360px;
+  @include media-breakpoint-up(sm) {
+    width: 550px;
+  }
+  
   margin: auto;
-  transition: all 1s;
+  transition: all 0.666s;
 }
 
 .reihe:hover {
+  color: black;
   background-color: rgb(223, 120, 83);
-  box-shadow: none;
-  border: 3px solid $card-color;
+  border: 1px solid rgb(230, 102, 55);
+  box-shadow: $box-shadow;
 }
 
+.pukt {
+  font-size: 1.1rem;
+  color: rgba(0, 0, 0, 0.61);
+  border: 1px solid rgba(0, 0, 0, 0.652);
+  padding: 3px;
+  margin: auto;
+}
+
+.pukt:hover {
+  color: white;
+  border: 1px solid black;
+  background-color: black;
+}
+/* -
 .card {
   position: absolute;
   top: 133%;
@@ -253,7 +272,7 @@ a:before, a:after, a > span:before, a > span:after {
   }
   transform-style: preserve-3d;
   perspective: 600px;
-  transition: 0.5s;
+  transition: 0.666s;
 }
 .card .front {
   position: absolute;
@@ -275,7 +294,7 @@ a:before, a:after, a > span:before, a > span:after {
   background-color: $card-color; 
   backface-visibility: hidden;
   transform: rotateX(180deg);
-  transition: 0.6s;
+  transition: 0.666s;
 }
 .card:hover .front {
   transform: rotateX(-180deg);
@@ -283,12 +302,12 @@ a:before, a:after, a > span:before, a > span:after {
 .card:hover .back {
   transform: rotateX(0deg);
 }
-/* -------------------------------------------------------------------------------------------------------------- */
+------------------------------------------------------------------------------------------------------------- */
 
 .section-two {
-  padding-top: 333px;
+  padding-top: 200px;
   @include media-breakpoint-up(md) {
-    padding-top: $section-padding + 100px;
+    padding-top: $section-padding + 150px;
   }
 
   h1 {
@@ -299,14 +318,23 @@ a:before, a:after, a > span:before, a > span:after {
 }
 
 .profilB {
-  box-shadow: 1px 6px 21px 3px #000000;
   width: 188px;
   height: 288px;
   margin: auto;
   display: block;
   margin-bottom: 33px;
+  transition: all 0.666s;
 }
 
+.profilB:hover {
+  box-shadow: 1px 6px 21px 3px #000000;
+
+}
+
+.hover {
+  box-shadow: 1px 6px 21px 3px #000000;
+
+}
 .biog {
   display: block;
   width: fit-content;
@@ -318,18 +346,21 @@ a:before, a:after, a > span:before, a > span:after {
 }
 
 .biografija {
-  background-color: rgb(223, 120, 83);
-  width: 90%;
-  box-shadow: $box-shadow;
-  padding: 11px;
+  border: 0.5px solid rgba(255, 255, 255, 0.542);
+  color: rgba(255, 255, 255, 0.522);
+  width: 360px;
+  @include media-breakpoint-up(md) {
+    width: 550px;
+  }
+  padding: 13px;
   font-family: 'Overlock', cursive;
   margin: auto;
-  transition: all 1s;
+  transition: all 0.666s;
 }
 .biografija:hover {
-  background-color: $card-color; 
-  box-shadow: none;
-  border: 3px solid rgb(223, 120, 83);
+  color: black;
+  background-color: rgb(223, 120, 83);
+  box-shadow: $box-shadow;
 }
 
 .prt {
@@ -368,7 +399,7 @@ a:before, a:after, a > span:before, a > span:after {
   padding: 6px;
   width: 90%;
   margin: auto;
-  box-shadow: $box-shadow; 
+  transition: all 0.666s;
 
   h1 {
     font-size: 2.0rem;
@@ -380,13 +411,18 @@ a:before, a:after, a > span:before, a > span:after {
     }
   }
 }
+.bx:hover {
+  box-shadow: $box-shadow; 
+
+}
+
 
 /* -------------------------------------------------------------------------------------------------------------- */
 
 .section-four{
   padding-top: 300px;
   @include media-breakpoint-up(md) {
-    padding-top: $section-padding + 100px;
+    padding-top: $section-padding;
   }
 
   h1 {
@@ -411,18 +447,16 @@ a:before, a:after, a > span:before, a > span:after {
 }
 
 .kontaktText {
-  background-color:rgba(255, 255, 255, 0.666);
-  box-shadow: $box-shadow;
+  background-color:rgba(255, 255, 255, 0.919);
   padding: 21px;
   width: 90%;
   margin: auto;
 }
 
 .kontaktTitel {
-  background-color:rgba(255, 255, 255, 0.666);
+  background-color:rgba(255, 255, 255, 0.892);
   padding: 21px;
   padding-top: 10px;
-  box-shadow: $box-shadow;
   width: 90%;
   margin: auto;
   margin-top: 100px;
