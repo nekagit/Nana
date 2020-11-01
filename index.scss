@@ -1,7 +1,7 @@
-$primary: rgb(134, 25, 25);
+$primary: rgba(116, 21, 34, 0.768);
 $card-color: rgba(245, 150, 95, 0.926);
 $section-padding: 400px;
-$box-shadow: 3px 9px 33px 6px #000000;
+$box-shadow: 4px 10px 33px 8px #000000;
 @import "lib/bootstrap/scss/bootstrap";
 
 html, body {
@@ -50,14 +50,18 @@ html, body {
   background-repeat: no-repeat;
   box-shadow: $box-shadow;
   background-position: 50%;
-  border: 3px solid rgba(0, 0, 0, 0.493);
+  border: 12px solid rgb(0, 0, 0);
+  border-radius: 50%;
   height: 688px;
   width: 90%;
    
 }
 
 .navbar-light .navbar-brand {
+  font-size: 2rem;
+  @include media-breakpoint-up(md) {
   font-size: 2.8rem;  
+  }
   font-family: 'Dancing Script', cursive;
   &:hover {
     color: rgb(255, 255, 255);
@@ -103,7 +107,7 @@ a:before, a:after, a > span:before, a > span:after {
   background-color: transparent;
   padding: 21px;
   @include media-breakpoint-up(md) {
-    margin-top: 111px;
+    margin-top: 88px;
     padding: 33px 233px 33px 233px;
   }
   margin-top: 33px; 
@@ -227,7 +231,7 @@ a:before, a:after, a > span:before, a > span:after {
 }
 
 .reihe {
-  border: 0.5px solid rgba(255, 255, 255, 0.542);
+  border: 6px solid rgba(255, 255, 255, 0.542);
   color: rgba(255, 255, 255, 0.522);
   width: 90%;
   @include media-breakpoint-up(sm) {
@@ -241,22 +245,26 @@ a:before, a:after, a > span:before, a > span:after {
 .reihe:hover {
   color: black;
   background-color: rgb(223, 120, 83);
-  border: 1px solid rgb(230, 102, 55);
+  border: 0.1px solid rgb(230, 102, 55);
   box-shadow: $box-shadow;
 }
 
 .pukt {
-  font-size: 1.1rem;
-  color: rgba(0, 0, 0, 0.61);
-  border: 1px solid rgba(0, 0, 0, 0.652);
-  padding: 3px;
+  font-size: 1.3rem;
+  background-color: rgba(133, 27, 57, 0.719);
+  color: rgba(255, 255, 255, 0.522);
+  padding: 5px;
   margin: auto;
+  transition: all 0.666s;
 }
 
 .pukt:hover {
-  color: white;
-  border: 1px solid black;
-  background-color: black;
+  color: black;
+  background-color: rgba(97, 18, 41, 0.719);
+}
+
+#slikb {
+  text-decoration: none;
 }
 /* -
 .card {
@@ -346,13 +354,12 @@ a:before, a:after, a > span:before, a > span:after {
 }
 
 .biografija {
-  border: 0.5px solid rgba(255, 255, 255, 0.542);
+  border: 6px solid rgba(255, 255, 255, 0.542);
   color: rgba(255, 255, 255, 0.522);
   width: 90%;
   @include media-breakpoint-up(md) {
     width: 550px;
   }
-  padding: 13px;
   font-family: 'Overlock', cursive;
   margin: auto;
   transition: all 0.666s;
@@ -360,13 +367,14 @@ a:before, a:after, a > span:before, a > span:after {
 .biografija:hover {
   color: black;
   background-color: rgb(223, 120, 83);
+  border: 0.1px solid rgb(223, 120, 83);
   box-shadow: $box-shadow;
 }
 
 .prt {
-  padding: 8px;
+  padding: 0px 21px 0px 21px;
   @include media-breakpoint-up(sm) {
-    padding: 0px 11px 0px 11px;
+    padding: 0px 33px 0px 33px;
   }
 }
 
