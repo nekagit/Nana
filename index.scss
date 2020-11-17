@@ -34,11 +34,13 @@ html, body {
     margin-top: 33px;
   }
   background-color: $primary;;
-  padding: 21px 21px 11px 21px;
+  padding: 11px ;
   background-size: cover;
   background-repeat: no-repeat;
   box-shadow: $box-shadow;
   background-position: 50%;
+  width: fit-content;
+  margin: auto;
   
 }
 .page-headerr {
@@ -58,13 +60,22 @@ html, body {
 }
 
 .navbar-light .navbar-brand {
-  font-size: 2rem;
+  font-size: 2.5rem;
   @include media-breakpoint-up(md) {
   font-size: 2.8rem;  
   }
   font-family: 'Dancing Script', cursive;
   &:hover {
     color: rgb(255, 255, 255);
+  }
+}
+
+#navo {
+  background-color:rgba(255, 255, 255, 0.666);
+  box-shadow: 3px 6px 9px black;
+  transition: all 0.666s;
+  &:hover {
+    background-color: rgba(255, 255, 255, 0.420);
   }
 }
 
@@ -128,11 +139,15 @@ a:before, a:after, a > span:before, a > span:after {
   color: black;
   border: 2.5px solid rgb(0, 0, 0);
   border-radius: 50%;
-  font-size: 1.2rem;
-  width: 2.1rem;
-  height: 2.1rem;
+  font-size: 1rem;
+  width: 1.9rem;
+  height: 1.9rem;
   margin: 0.4rem 0.33rem 0.33rem 0.33rem;
   box-shadow: 0px 0px 1px 1px black;
+  @include media-breakpoint-up (md) {
+    width: 2.1rem;
+    height: 2.1rem;
+  }
   &:hover {
     color: rgb(255, 255, 255);
     background-color: rgb(41,72,125);
@@ -145,11 +160,15 @@ a:before, a:after, a > span:before, a > span:after {
   color: black;
   border: 2.5px solid rgb(0, 0, 0);
   border-radius: 50%;
-  font-size: 1.2rem;
-  width: 2.1rem;
-  height: 2.1rem;
+  font-size: 1rem;
+  width: 1.9rem;
+  height: 1.9rem;
   margin: 0.4rem 0.33rem 0.33rem 0.33rem;
   box-shadow: 0px 0px 1px 1px black;
+  @include media-breakpoint-up (md) {
+    width: 2.1rem;
+    height: 2.1rem;
+  }
 
   &:hover {
     color: rgb(255, 255, 255);
@@ -163,11 +182,15 @@ a:before, a:after, a > span:before, a > span:after {
   color: black;
   border: 2.5px solid rgb(0, 0, 0);
   border-radius: 50%;
-  font-size: 1.2rem;
-  width: 2.1rem;
-  height: 2.1rem;
+  font-size: 1rem;
+  width: 1.9rem;
+  height: 1.9rem;
   margin: 0.4rem 0.33rem 0.33rem 0.33rem;
   box-shadow: 0px 0px 1px 1px black;
+  @include media-breakpoint-up (md) {
+    width: 2.1rem;
+    height: 2.1rem;
+  }
 
   &:hover {
     color: rgb(255, 255, 255);
@@ -181,11 +204,15 @@ a:before, a:after, a > span:before, a > span:after {
   color: black;
   border: 2.5px solid rgb(0, 0, 0);
   border-radius: 50%;
-  font-size: 1.2rem;
-  width: 2.1rem;
-  height: 2.1rem;
+  font-size: 1rem;
+  width: 1.9rem;
+  height: 1.9rem;
   margin: 0.4rem 0.33rem 0.33rem 0.33rem;
   box-shadow: 0px 0px 1px 1px black;
+  @include media-breakpoint-up (md) {
+    width: 2.1rem;
+    height: 2.1rem;
+  }
 
   &:hover {
     color: rgb(255, 255, 255);
@@ -601,12 +628,8 @@ a:before, a:after, a > span:before, a > span:after {
   padding-top: 70px;
   padding-bottom: 1px;
   margin-top: 100px;
-  @include media-breakpoint-up(md) {
-  }
-  @include media-breakpoint-up(xl) {
-  }
-  @media (min-width: 1420px){
-  }
+  margin-left: 11px;
+  margin-right: 11px; 
   @media (min-width: 1600px){
     background-color:rgba(0, 0, 0, 0.748); 
     padding-top: 50px;

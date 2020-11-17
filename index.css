@@ -9555,12 +9555,16 @@ html, body {
 /* -------------------------------------------------------------------------------------------------------------- */
 .page-header {
   background-color: rgba(116, 21, 34, 0.768);
-  padding: 21px 21px 11px 21px;
+  padding: 11px;
   background-size: cover;
   background-repeat: no-repeat;
   -webkit-box-shadow: 4px 10px 33px 8px #000000;
           box-shadow: 4px 10px 33px 8px #000000;
   background-position: 50%;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: auto;
 }
 
 @media (min-width: 768px) {
@@ -9589,7 +9593,7 @@ html, body {
 }
 
 .navbar-light .navbar-brand {
-  font-size: 2rem;
+  font-size: 2.5rem;
   font-family: 'Dancing Script', cursive;
 }
 
@@ -9601,6 +9605,18 @@ html, body {
 
 .navbar-light .navbar-brand:hover {
   color: white;
+}
+
+#navo {
+  background-color: rgba(255, 255, 255, 0.666);
+  -webkit-box-shadow: 3px 6px 9px black;
+          box-shadow: 3px 6px 9px black;
+  -webkit-transition: all 0.666s;
+  transition: all 0.666s;
+}
+
+#navo:hover {
+  background-color: rgba(255, 255, 255, 0.42);
 }
 
 .nav-link {
@@ -9678,12 +9694,19 @@ a:before, a:after, a > span:before, a > span:after {
   color: black;
   border: 2.5px solid black;
   border-radius: 50%;
-  font-size: 1.2rem;
-  width: 2.1rem;
-  height: 2.1rem;
+  font-size: 1rem;
+  width: 1.9rem;
+  height: 1.9rem;
   margin: 0.4rem 0.33rem 0.33rem 0.33rem;
   -webkit-box-shadow: 0px 0px 1px 1px black;
           box-shadow: 0px 0px 1px 1px black;
+}
+
+@media (min-width: 768px) {
+  .social-iconf {
+    width: 2.1rem;
+    height: 2.1rem;
+  }
 }
 
 .social-iconf:hover {
@@ -9698,12 +9721,19 @@ a:before, a:after, a > span:before, a > span:after {
   color: black;
   border: 2.5px solid black;
   border-radius: 50%;
-  font-size: 1.2rem;
-  width: 2.1rem;
-  height: 2.1rem;
+  font-size: 1rem;
+  width: 1.9rem;
+  height: 1.9rem;
   margin: 0.4rem 0.33rem 0.33rem 0.33rem;
   -webkit-box-shadow: 0px 0px 1px 1px black;
           box-shadow: 0px 0px 1px 1px black;
+}
+
+@media (min-width: 768px) {
+  .social-iconp {
+    width: 2.1rem;
+    height: 2.1rem;
+  }
 }
 
 .social-iconp:hover {
@@ -9718,12 +9748,19 @@ a:before, a:after, a > span:before, a > span:after {
   color: black;
   border: 2.5px solid black;
   border-radius: 50%;
-  font-size: 1.2rem;
-  width: 2.1rem;
-  height: 2.1rem;
+  font-size: 1rem;
+  width: 1.9rem;
+  height: 1.9rem;
   margin: 0.4rem 0.33rem 0.33rem 0.33rem;
   -webkit-box-shadow: 0px 0px 1px 1px black;
           box-shadow: 0px 0px 1px 1px black;
+}
+
+@media (min-width: 768px) {
+  .social-iconi {
+    width: 2.1rem;
+    height: 2.1rem;
+  }
 }
 
 .social-iconi:hover {
@@ -9738,12 +9775,19 @@ a:before, a:after, a > span:before, a > span:after {
   color: black;
   border: 2.5px solid black;
   border-radius: 50%;
-  font-size: 1.2rem;
-  width: 2.1rem;
-  height: 2.1rem;
+  font-size: 1rem;
+  width: 1.9rem;
+  height: 1.9rem;
   margin: 0.4rem 0.33rem 0.33rem 0.33rem;
   -webkit-box-shadow: 0px 0px 1px 1px black;
           box-shadow: 0px 0px 1px 1px black;
+}
+
+@media (min-width: 768px) {
+  .social-icony {
+    width: 2.1rem;
+    height: 2.1rem;
+  }
 }
 
 .social-icony:hover {
@@ -10233,6 +10277,8 @@ a:before, a:after, a > span:before, a > span:after {
   padding-top: 70px;
   padding-bottom: 1px;
   margin-top: 100px;
+  margin-left: 11px;
+  margin-right: 11px;
 }
 
 @media (min-width: 1600px) {
