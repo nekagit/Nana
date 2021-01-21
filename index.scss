@@ -1,4 +1,4 @@
-$primary: rgba(116, 21, 34, 0.768);
+$primary: rgba(133, 25, 40, 0.863);
 $card-color: rgba(245, 150, 95, 0.926);
 $section-padding: 400px;
 $box-shadow: 4px 10px 33px 8px #000000;
@@ -33,10 +33,8 @@ html, body {
   @include media-breakpoint-up(md) {
     margin-top: 33px;
   }
-  background-color: $primary;;
+  transition: transform .4s ease;
   padding: 11px ;
-  background-size: cover;
-  background-repeat: no-repeat;
   box-shadow: $box-shadow;
   background-position: 50%;
   width: fit-content;
@@ -52,16 +50,15 @@ html, body {
   background-repeat: no-repeat;
   box-shadow: $box-shadow;
   background-position: 50%;
-  border: 12px solid rgb(0, 0, 0);
-  border-radius: 50%;
-  height: 688px;
-  width: 90%;
+  border-radius: 33px;
+  height: 700px;
+  width: 80%;
    
 }
 
 .navbar-light .navbar-brand {
   font-size: 2.5rem;
-  @include media-breakpoint-up(md) {
+  @include media-breakpoint-up(md) { 
   font-size: 2.8rem;  
   }
   font-family: 'Dancing Script', cursive;
@@ -71,16 +68,20 @@ html, body {
 }
 
 #navo {
-  background-color:rgba(255, 255, 255, 0.666);
+  background-color: rgba(255, 255, 255, 0.205);
   box-shadow: 3px 6px 9px black;
-  transition: all 0.666s;
+  @include media-breakpoint-up(md) { 
+    width: fit-content;
+  }
+  transition: all 1.1s;
   &:hover {
-    background-color: rgba(255, 255, 255, 0.420);
+    background-color:rgba(255, 255, 255, 0.425);
   }
 }
 
 .nav-link{
   font-size: 1.3rem;
+  align-self: center;
 }
 
 a, a > span {
@@ -266,7 +267,7 @@ a:before, a:after, a > span:before, a > span:after {
   }
   
   margin: auto;
-  transition: all 0.666s;
+  transition: all 1.1s;
 }
 
 .reihe:hover {
@@ -278,11 +279,11 @@ a:before, a:after, a > span:before, a > span:after {
 
 .pukt {
   font-size: 1.3rem;
-  background-color: rgba(133, 27, 57, 0.719);
+  background-color: rgb(192, 100, 100);
   color: rgba(255, 255, 255, 0.522);
   padding: 5px;
   margin: auto;
-  transition: all 0.666s;
+  transition: all 1.1s;
 }
 
 .pukt:hover {
@@ -307,7 +308,7 @@ a:before, a:after, a > span:before, a > span:after {
   }
   transform-style: preserve-3d;
   perspective: 600px;
-  transition: 0.666s;
+  transition: 1.1s;
 }
 .card .front {
   position: absolute;
@@ -329,7 +330,7 @@ a:before, a:after, a > span:before, a > span:after {
   background-color: $card-color; 
   backface-visibility: hidden;
   transform: rotateX(180deg);
-  transition: 0.666s;
+  transition: 1.1s;
 }
 .card:hover .front {
   transform: rotateX(-180deg);
@@ -358,7 +359,7 @@ a:before, a:after, a > span:before, a > span:after {
   margin: auto;
   display: block;
   margin-bottom: 33px;
-  transition: all 0.666s;
+  transition: all 1.1s;
 }
 
 .profilB:hover {
@@ -389,7 +390,7 @@ a:before, a:after, a > span:before, a > span:after {
   }
   font-family: 'Overlock', cursive;
   margin: auto;
-  transition: all 0.666s;
+  transition: all 1.1s;
 }
 .biografija:hover {
   color: black;
@@ -434,7 +435,7 @@ a:before, a:after, a > span:before, a > span:after {
   padding: 6px;
   width: 90%;
   margin: auto;
-  transition: all 0.666s;
+  transition: all 1.1s;
 
   h1 {
     font-size: 2.0rem;
