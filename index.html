@@ -3,38 +3,34 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="index.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Overlock:wght@700&display=swap" rel="stylesheet">
     <title>Stankovic Dragoslava</title>
   </head>
-  <!-- background-image: url(images/placeholders/wood-336589_1920.jpg); background-size: contain; -->
-  <body style="background-color: #a04747de">   
-    <header class=" container page-headerr">
-      <div class="pt-3">
-        <nav id="navo" class="navbar navbar-expand-xl navbar-light container rounded pl-3 pr-3 pt-1 pb-1">
-          <button class="navbar-toggler mx-auto" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation" style="outline: none;">
-            <span class="navbar-toggler-icon "></span>
-          </button>
-          
-          <div class="collapse navbar-collapse titl" id="navbarNavAltMarkup">
-            <div class="navbar-nav ">
-              <a id="art" class="navbar-brand mx-auto p-3" href="index.html">ArtStanković</a>
-              <a class="nav-item nav-link effect3 mx-auto" style="color:  rgb(107, 14, 14);" href="#">Kuća<span class="sr-only">(current)</span></a>
-              <a class="nav-item nav-link effect3 mx-auto" style="color:  black"  href="slike.html"> Slike</a>
-              <a class="nav-item nav-link effect3 mx-auto" style="color:  black;"  href="#rad"> Umetnički rad</a>
-              <a class="nav-item nav-link effect3 mx-auto" style="color:  black"  href="#ja"> O meni</a>
-              <a class="nav-item nav-link effect3 mx-auto" style="color:  black"  href="#atelje"> Moj atelje</a>
-              <a class="nav-item nav-link effect3 mx-auto" style="color:  black"  href="#kontakt"> Kontakt</a>
-            </div>
-          </div> 
-        </nav>
-        <div class="jumbotron header-jumbotron text-center d-flex flex-column align-items-center titl" >
-          <h1>Dobro došli</h1>
-          <h1>na sajt Dragoslave Stanković</h1>
+  <body>
+    <header class="container page-headerr">
+      <nav id="navo" class="navbar navbar-expand-xl navbar-light">
+        <button class="navbar-toggler mx-auto mt-3" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation" style="outline: none;">
+          <span class="navbar-toggler-icon "></span>
+        </button>
+        
+        <div class="collapse navbar-collapse titl" id="navbarNavAltMarkup">
+          <div class="navbar-nav ">
+            <a id="art" class="navbar-brand " href="index.html">ArtStanković</a>
+            <a class="nav-item nav-link effect3 ml-lg-5" style="color:  rgb(107, 14, 14);" href="#">Kuća<span class="sr-only">(current)</span></a>
+            <a class="nav-item nav-link effect3" style="color:  black"  href="slike.html"> Slike</a>
+            <a class="nav-item nav-link effect3" style="color:  black;"  href="#rad"> Umetnički rad</a>
+            <a class="nav-item nav-link effect3" style="color:  black"  href="#ja"> O meni</a>
+            <a class="nav-item nav-link effect3" style="color:  black"  href="#atelje"> Moj atelje</a>
+            <a class="nav-item nav-link effect3" style="color:  black"  href="#kontakt"> Kontakt</a>
+          </div>
         </div> 
-      </div>
+      </nav>
+      <div class="jumbotron header-jumbotron text-center d-flex flex-column align-items-center titl" >
+        <h1>Dobro došli</h1>
+        <h1>na sajt Dragoslave Stanković</h1>
+      </div> 
     </header>
 
     <section>
@@ -99,7 +95,7 @@
     <section>
       <div class="container section-three">
         <div class="bx rounded" id="atelje">
-          <video muted loop id="myVideo">
+          <video id="myVideo" controls>
             <source src="images/placeholders/slike/Atelje Jovana_Trim.mp4" type="video/mp4">
           </video>
           <div class="d-flex justify-content-between">
@@ -152,52 +148,6 @@
     <i class="fas fa-air-freshener" id="myBtn" onclick="topFunction()"></i>
     
     <script>
-      mybutton = document.getElementById("myBtn");
-      window.onscroll = function() {scrollFunction()};
-      function scrollFunction() {
-        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-            mybutton.style.display = "block";
-        } else {
-            mybutton.style.display = "none";
-        }
-      }
-      function topFunction() {
-        document.body.scrollTop = 0;
-        document.documentElement.scrollTop = 0;
-      }
-    </script>
-
-    <script>
-      function hover() {
-        document.getElementById("slk").classList.add('hover'); 
-      }
-      function weg() {
-        document.getElementById("slk").classList.remove('hover'); 
-      }
-      function vise() {
-        document.getElementById("viseb").classList.remove('d-none');
-        document.getElementById("slikb").classList.remove('d-none');
-        document.getElementById("visb").classList.add('d-none');
-      }
-      function visee() {
-        document.getElementById("textB").classList.remove('d-none');
-        document.getElementById("viseeb").classList.add('d-none');
-      }
-
-    </script>
-
-    <script>
-      var video = document.getElementById("myVideo");
-      var btn = document.getElementById("myBt");
-      function myFunction() {
-        if (video.paused) {
-          video.play();
-          btn.innerHTML = "Stop";
-        } else {
-          video.pause();
-          btn.innerHTML = "Play";
-        }
-      }
     </script>
     <script type="text/javascript" src="lib/jquery/jquery-3.3.1.min.js"></script>
     <script type="text/javascript" src="lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>

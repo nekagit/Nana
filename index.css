@@ -9521,6 +9521,7 @@ html, body {
   overflow-x: hidden;
   margin: 0;
   padding: 0;
+  background-color: #a04747de;
 }
 
 #myBtn {
@@ -9592,34 +9593,17 @@ html, body {
   }
 }
 
-.navbar-light .navbar-brand {
-  font-size: 2.5rem;
-  font-family: 'Dancing Script', cursive;
-}
-
-@media (min-width: 768px) {
-  .navbar-light .navbar-brand {
-    font-size: 2.8rem;
-  }
-}
-
-.navbar-light .navbar-brand:hover {
-  color: white;
-}
-
 #navo {
-  background-color: rgba(255, 255, 255, 0.205);
-  -webkit-box-shadow: 3px 6px 9px black;
-          box-shadow: 3px 6px 9px black;
-  -webkit-transition: all 1.1s;
-  transition: all 1.1s;
+  border-radius: 33px;
+  background-color: rgba(255, 255, 255, 0.075);
+  -webkit-transition: all 0.6s;
+  transition: all 0.6s;
 }
 
 @media (min-width: 768px) {
   #navo {
-    width: -webkit-fit-content;
-    width: -moz-fit-content;
-    width: fit-content;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.205);
   }
 }
 
@@ -9627,11 +9611,31 @@ html, body {
   background-color: rgba(255, 255, 255, 0.425);
 }
 
-.nav-link {
-  font-size: 1.3rem;
+.navbar-light .navbar-brand {
+  font-size: 2.5rem;
   -ms-flex-item-align: center;
       -ms-grid-row-align: center;
       align-self: center;
+  font-family: 'Dancing Script', cursive;
+}
+
+@media (min-width: 768px) {
+  .navbar-light .navbar-brand {
+    font-size: 2.8rem;
+    padding: 21px 42px 21px 21px;
+  }
+}
+
+.navbar-light .navbar-brand:hover {
+  color: rgba(255, 255, 255, 0.425);
+}
+
+.nav-link {
+  font-size: 1.5rem;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  cursor: pointer;
 }
 
 a, a > span {
@@ -9705,19 +9709,12 @@ a:before, a:after, a > span:before, a > span:after {
   color: black;
   border: 2.5px solid black;
   border-radius: 50%;
-  font-size: 1rem;
-  width: 1.9rem;
-  height: 1.9rem;
+  font-size: 1.3rem;
+  width: 2.5rem;
+  height: 2.5rem;
   margin: 0.4rem 0.33rem 0.33rem 0.33rem;
   -webkit-box-shadow: 0px 0px 1px 1px black;
           box-shadow: 0px 0px 1px 1px black;
-}
-
-@media (min-width: 768px) {
-  .social-iconf {
-    width: 2.1rem;
-    height: 2.1rem;
-  }
 }
 
 .social-iconf:hover {
@@ -9732,19 +9729,12 @@ a:before, a:after, a > span:before, a > span:after {
   color: black;
   border: 2.5px solid black;
   border-radius: 50%;
-  font-size: 1rem;
-  width: 1.9rem;
-  height: 1.9rem;
+  font-size: 1.3rem;
+  width: 2.5rem;
+  height: 2.5rem;
   margin: 0.4rem 0.33rem 0.33rem 0.33rem;
   -webkit-box-shadow: 0px 0px 1px 1px black;
           box-shadow: 0px 0px 1px 1px black;
-}
-
-@media (min-width: 768px) {
-  .social-iconp {
-    width: 2.1rem;
-    height: 2.1rem;
-  }
 }
 
 .social-iconp:hover {
@@ -9759,19 +9749,12 @@ a:before, a:after, a > span:before, a > span:after {
   color: black;
   border: 2.5px solid black;
   border-radius: 50%;
-  font-size: 1rem;
-  width: 1.9rem;
-  height: 1.9rem;
+  font-size: 1.3rem;
+  width: 2.5rem;
+  height: 2.5rem;
   margin: 0.4rem 0.33rem 0.33rem 0.33rem;
   -webkit-box-shadow: 0px 0px 1px 1px black;
           box-shadow: 0px 0px 1px 1px black;
-}
-
-@media (min-width: 768px) {
-  .social-iconi {
-    width: 2.1rem;
-    height: 2.1rem;
-  }
 }
 
 .social-iconi:hover {
@@ -9786,19 +9769,12 @@ a:before, a:after, a > span:before, a > span:after {
   color: black;
   border: 2.5px solid black;
   border-radius: 50%;
-  font-size: 1rem;
-  width: 1.9rem;
-  height: 1.9rem;
+  font-size: 1.3rem;
+  width: 2.5rem;
+  height: 2.5rem;
   margin: 0.4rem 0.33rem 0.33rem 0.33rem;
   -webkit-box-shadow: 0px 0px 1px 1px black;
           box-shadow: 0px 0px 1px 1px black;
-}
-
-@media (min-width: 768px) {
-  .social-icony {
-    width: 2.1rem;
-    height: 2.1rem;
-  }
 }
 
 .social-icony:hover {
@@ -9812,7 +9788,6 @@ a:before, a:after, a > span:before, a > span:after {
 /* -------------------------------------------------------------------------------------------------------------- */
 .section-one {
   padding-top: 200px;
-  font-family: 'Overlock', cursive;
 }
 
 @media (min-width: 768px) {
@@ -10137,6 +10112,20 @@ a:before, a:after, a > span:before, a > span:after {
 }
 
 /* -------------------------------------------------------------------------------------------------------------- */
+.section-five {
+  margin: 11px;
+  margin-top: 100px;
+  padding: 11px;
+}
+
+@media (min-width: 768px) {
+  .section-five {
+    margin: 21px;
+    margin-top: 188px;
+    padding: 21px;
+  }
+}
+
 .section-five h1 {
   font-family: 'Dancing Script', cursive;
   color: rgba(133, 25, 40, 0.863);
@@ -10149,7 +10138,7 @@ a:before, a:after, a > span:before, a > span:after {
   background-repeat: no-repeat;
   width: 88%;
   height: 111px;
-  padding: 21px 21px 21px 21px;
+  padding: 21px;
   margin-top: 88px;
   margin-bottom: 88px;
   border: 1px solid black;
@@ -10174,7 +10163,7 @@ a:before, a:after, a > span:before, a > span:after {
   background-image: url("images/placeholders/jesen.jpg");
   width: 88%;
   height: 111px;
-  padding: 21px 21px 21px 21px;
+  padding: 21px;
   margin-top: 88px;
   margin-bottom: 88px;
   border: 1px solid black;
@@ -10199,7 +10188,7 @@ a:before, a:after, a > span:before, a > span:after {
   background-image: url("images/placeholders/abstr.jpg");
   width: 88%;
   height: 111px;
-  padding: 21px 21px 21px 21px;
+  padding: 21px 21px;
   margin-top: 88px;
   margin-bottom: 88px;
   border: 1px solid black;
@@ -10224,7 +10213,7 @@ a:before, a:after, a > span:before, a > span:after {
   background-image: url("images/placeholders/zima.jpg");
   width: 88%;
   height: 111px;
-  padding: 21px 21px 21px 21px;
+  padding: 21px;
   margin-top: 88px;
   margin-bottom: 88px;
   border: 1px solid black;
@@ -10249,7 +10238,7 @@ a:before, a:after, a > span:before, a > span:after {
   background-image: url("images/placeholders/kult.jpg");
   width: 88%;
   height: 111px;
-  padding: 21px 21px 21px 21px;
+  padding: 21px;
   margin-top: 88px;
   margin-bottom: 88px;
   border: 1px solid black;
@@ -10285,21 +10274,12 @@ a:before, a:after, a > span:before, a > span:after {
   background-color: rgba(0, 0, 0, 0.652);
   -webkit-box-shadow: 4px 10px 33px 8px #000000;
           box-shadow: 4px 10px 33px 8px #000000;
-  padding-top: 70px;
-  padding-bottom: 1px;
-  margin-top: 100px;
-  margin-left: 11px;
-  margin-right: 11px;
+  padding: 21px;
 }
 
 @media (min-width: 1600px) {
   #zadnji {
     background-color: rgba(0, 0, 0, 0.748);
-    padding-top: 50px;
-    padding-bottom: 50px;
-    margin-left: 150px;
-    margin-right: 150px;
-    margin-bottom: 50px;
     -webkit-box-shadow: 4px 10px 33px 8px #000000;
             box-shadow: 4px 10px 33px 8px #000000;
   }
@@ -10309,51 +10289,81 @@ a:before, a:after, a > span:before, a > span:after {
 #prolec {
   background-color: rgba(0, 0, 0, 0.822);
   color: white;
-  padding-top: 33px;
-  margin: 121px 21px 121px 21px;
+  padding-top: 21px;
   border: 2px solid rgba(133, 25, 40, 0.863);
   -webkit-box-shadow: 4px 10px 33px 8px #000000;
           box-shadow: 4px 10px 33px 8px #000000;
+}
+
+@media (min-width: 768px) {
+  #prolec {
+    padding-top: 33px;
+    margin: 121px 21px 121px 21px;
+  }
 }
 
 #jesec {
   background-color: rgba(0, 0, 0, 0.822);
   color: white;
-  padding-top: 33px;
-  margin: 121px 21px 121px 21px;
+  padding-top: 21px;
   border: 2px solid rgba(133, 25, 40, 0.863);
   -webkit-box-shadow: 4px 10px 33px 8px #000000;
           box-shadow: 4px 10px 33px 8px #000000;
+}
+
+@media (min-width: 768px) {
+  #jesec {
+    padding-top: 33px;
+    margin: 121px 21px 121px 21px;
+  }
 }
 
 #absec {
   background-color: rgba(0, 0, 0, 0.822);
   color: white;
-  padding-top: 33px;
-  margin: 121px 21px 121px 21px;
+  padding-top: 21px;
   border: 2px solid rgba(133, 25, 40, 0.863);
   -webkit-box-shadow: 4px 10px 33px 8px #000000;
           box-shadow: 4px 10px 33px 8px #000000;
+}
+
+@media (min-width: 768px) {
+  #absec {
+    padding-top: 33px;
+    margin: 121px 21px 121px 21px;
+  }
 }
 
 #kultec {
   background-color: rgba(0, 0, 0, 0.822);
   color: white;
-  padding-top: 33px;
-  margin: 121px 21px 121px 21px;
+  padding-top: 21px;
   border: 2px solid rgba(133, 25, 40, 0.863);
   -webkit-box-shadow: 4px 10px 33px 8px #000000;
           box-shadow: 4px 10px 33px 8px #000000;
 }
 
+@media (min-width: 768px) {
+  #kultec {
+    padding-top: 33px;
+    margin: 121px 21px 121px 21px;
+  }
+}
+
 #zimec {
   background-color: rgba(0, 0, 0, 0.822);
   color: white;
-  padding-top: 33px;
-  margin: 121px 21px 121px 21px;
+  padding-top: 21px;
   border: 2px solid rgba(133, 25, 40, 0.863);
   -webkit-box-shadow: 4px 10px 33px 8px #000000;
           box-shadow: 4px 10px 33px 8px #000000;
+}
+
+@media (min-width: 768px) {
+  #zimec {
+    padding-top: 33px;
+    margin: 121px 21px 121px 21px;
+  }
 }
 
 #karte {
@@ -10393,9 +10403,9 @@ a:before, a:after, a > span:before, a > span:after {
 #zbtn {
   background-color: rgba(0, 0, 0, 0.727);
   color: white;
-  padding: 6xp;
-  margin: 8px;
-  font-size: 1rem;
+  padding: 7xp;
+  margin: 9px;
+  font-size: 1.1rem;
 }
 
 #zbtn:hover {
@@ -10507,7 +10517,8 @@ img {
 .numbertext {
   color: white;
   font-size: 1.4rem;
-  padding: 8px;
+  margin: 11px;
+  margin-left: 1px;
   position: absolute;
   top: 0;
 }
@@ -10526,6 +10537,10 @@ img {
   .caption-container {
     font-size: 2.1rem;
   }
+}
+
+.row {
+  margin: 0;
 }
 
 .row:after {

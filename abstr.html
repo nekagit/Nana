@@ -8,26 +8,26 @@
      <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
      <title>Stankovic Dragoslava</title>
    </head>
-   <body style="background-color: rgb(87, 23, 30)">   
+   <body>   
     <header class="page-header">
        <div>
-        <nav id="navo" class="navbar navbar-expand-xl navbar-light container rounded pl-3 pr-3 pt-1 pb-1">
-          <button class="navbar-toggler ml-3 " type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation" style="outline: none;">
+        <nav id="navo" class="navbar navbar-expand-xl navbar-light container">
+          <button class="navbar-toggler ml-4" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation" style="outline: none;">
             <span class="navbar-toggler-icon "></span>
           </button>
-             <a class="navbar-brand mx-auto pl-md-4 pr-md-4" href="index.html">ArtStanković</a>
-             <div class="text-center d-flex mx-auto mt-1 ml-md-2">
-               <a href="https://www.facebook.com/dragica.stankovic.90"  target="_blank" class="social-iconf d-flex flex-column justify-content-center" ><span class="sr-only">some text that relates to your link</span><i class="fab fa-facebook-f"> </i> </a> 
-               <a href="https://www.pinterest.de/dragoslavastankovic/_created/" target="_blank" class="social-iconp d-flex flex-column justify-content-center"><span class="sr-only">some text that relates to your link</span><i class="fab fa-pinterest-p"> </i></a>
-               <a href="https://www.instagram.com/stankovicdragica/" target="_blank" class="social-iconi d-flex flex-column justify-content-center" ><span class="sr-only">some text that relates to your link</span><i class="fab fa-instagram"> </i> </a> 
-               <a href="https://www.youtube.com/user/230450dragica" target="_blank" class="social-icony d-flex flex-column justify-content-center"><span class="sr-only">some text that relates to your link</span><i class="fab fa-youtube"> </i></a>
+             <a class="navbar-brand mx-auto pr-4" href="index.html">ArtStanković</a>
+             <div class="text-center d-flex mx-auto pl-3 pr-sm-4">
+               <a href="https://www.facebook.com/dragica.stankovic.90"  target="_blank" class="social-iconf d-flex flex-column justify-content-center" ><i class="fab fa-facebook-f"></i> </a> 
+               <a href="https://www.pinterest.de/dragoslavastankovic/_created/" target="_blank" class="social-iconp d-flex flex-column justify-content-center"><i class="fab fa-pinterest-p"></i></a>
+               <a href="https://www.instagram.com/stankovicdragica/" target="_blank" class="social-iconi d-flex flex-column justify-content-center" ><i class="fab fa-instagram"></i> </a> 
+               <a href="https://www.youtube.com/user/230450dragica" target="_blank" class="social-icony d-flex flex-column justify-content-center"><i class="fab fa-youtube"></i></a>
              </div>
              <div class="collapse navbar-collapse justify-content-end titl" id="navbarNavAltMarkup">
-               <div class="navbar-nav mx-auto">
-                 <a class="nav-item nav-link effect3 mx-auto" style="color:  rgb(107, 14, 14);" href="#">Abstrakcije<span class="sr-only">(current)</span></a>
-                 <a class="nav-item nav-link effect3 mx-auto" style="color:  black"  href="slike.html">Slike</a>
-                 <a class="nav-item nav-link effect3 mx-auto" style="color:  black"  href="index.html">Kuća</a>
-               </div>
+              <div class="navbar-nav pr-sm-3">
+                <a class="nav-item nav-link effect3" style="color:  rgb(107, 14, 14);" href="#">Abstrakcije<span class="sr-only">(current)</span></a>
+                <a class="nav-item nav-link effect3" style="color:  black"  href="index.html">Kuća</a>
+                <a class="nav-item nav-link effect3" style="color:  black"  href="slike.html">Kategorije</a>
+              </div>
              </div> 
            </nav>
          </div>
@@ -167,10 +167,13 @@
       
 
       <div class="container d-none" id="view">
-        <center><div class="butts">
-        <a href="#absec"><span class="btn text-center" id="zbtn" onclick="showT()">Smanjenje</span> </a>
-       <span class="btn text-center" id="zbtN" onclick="showD()">Detalji</span> 
-        </div></center>
+        
+        <center>
+          <div class="butts">
+            <a href="#absec"><span class="btn text-center" id="zbtn" onclick="showT()">Smanjenje</span> </a>
+            <span class="btn text-center" id="zbtN" onclick="showD()">Detalji</span>
+         </div>
+        </center>
       
         <div class="mySlidez " >
           <div class="numbertext titl">1 / 25</div>
@@ -368,7 +371,7 @@
             <img class="demo cursor" src="images/placeholders/slike/15.JPG" style="width:100%;" onclick="currentSlides(22)" alt="Crkvica">
           </div>
           <div class="column">
-            <img class="demo cursor" src="images/placeholders/slike/75.JPG" style="width:100%;" onclick="currentSlides(23)" alt="Korona">
+            <img class="demo cursor" src="images/placeholders/slike/75.jpg" style="width:100%;" onclick="currentSlides(23)" alt="Korona">
           </div>
           <div class="column">
             <img class="demo cursor" src="images/placeholders/slike/76.JPG" style="width:100%;" onclick="currentSlides(24)" alt="Plava Gorobnica">
@@ -381,7 +384,7 @@
         <section>
             <div class="section-five">
                 <div class="" id="absec">
-                    <h2 class="text-center pb-5" style="color: rgb(255, 255, 255);font-family: 'Dancing Script', cursive; font-size: 4rem;">Abstrakcije</h2>
+                    <h2 class="text-center pb-4" style="color: rgb(255, 255, 255);font-family: 'Dancing Script', cursive; font-size: 3rem;">Abstrakcije</h2>
                     <center><a href="#view"><span class="mt-3 btn text-center" id="zbtn" onclick="showIt()">Uveličane</span> </a></center>
                     <div class="row mx-auto">
                       <div id="cards" class="col-12 col-sm-6 col-lg-4 mx-auto d-flex align-items-stretch">
@@ -585,7 +588,7 @@
                  </div>
                  <div id="cards" class="col-12 col-sm-6 col-lg-4 mx-auto d-flex align-items-stretch">
                    <div class="card mb-4" id="karte" style="border: 1px solid black;">
-                     <a href="#view"><img class="card-img-top" width="260px"  height="220px" src="images/placeholders/slike/15.JPG" onclick="currentSlides(23)"></a>
+                     <a href="#view"><img class="card-img-top" width="260px"  height="220px" src="images/placeholders/slike/75.jpg" onclick="currentSlides(23)"></a>
                      <div class="card-body"  style="background-color: rgba(0, 0, 0, 0.829); color: white;">
                        <h5 class="card-title text-center">Korona</h5>
                        <h6 class="card-subtitle text-center">#75</h6>
@@ -666,10 +669,6 @@
             document.documentElement.scrollTop = 0;
           }
 
-      </script>
-
-
-      <script>
         var slideIndex = 1;
 
         showSlides(slideIndex);
@@ -709,18 +708,13 @@
           dots[slideIndex-1].className += " active";
           captionText.innerHTML = dots[slideIndex-1].alt;
         }
-        </script>
-
-        <script>
           function showD() {
           document.getElementById("daten").classList.remove('d-none'); 
           document.getElementById(slideIndex).classList.remove('d-none'); 
           document.getElementById("zbtN").classList.add('d-none'); 
           document.getElementById("view").style.marginTop = "0px";
           }
-        </script>
-
-        <script>
+          
           function showIt() {
             document.getElementById("zbtN").classList.remove('d-none'); 
             document.getElementById("view").classList.remove('d-none'); 

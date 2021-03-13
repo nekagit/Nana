@@ -35,3 +35,50 @@ var myIndex = 0;
       setTimeout(carousel, 9000);    
     }
  
+  //---------------------------------------------//
+  
+  mybutton = document.getElementById("myBtn");
+  window.onscroll = function() {scrollFunction()};
+  function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        mybutton.style.display = "block";
+    } else {
+        mybutton.style.display = "none";
+    }
+  }
+  function topFunction() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+  }
+  
+  function hover() {
+    document.getElementById("slk").classList.add('hover'); 
+  }
+  function weg() {
+    document.getElementById("slk").classList.remove('hover'); 
+  }
+  function vise() {
+    document.getElementById("viseb").classList.remove('d-none');
+    document.getElementById("slikb").classList.remove('d-none');
+    document.getElementById("visb").classList.add('d-none');
+  }
+  function visee() {
+    document.getElementById("textB").classList.remove('d-none');
+    document.getElementById("viseeb").classList.add('d-none');
+  }
+
+  var video = document.getElementById("myVideo");
+  var btn = document.getElementById("myBt");
+  function myFunction() {
+    if (video.paused) {
+      video.play();
+      btn.innerHTML = "Stop";
+    } else {
+      video.pause();
+      btn.innerHTML = "Play";
+    }
+  }
+
+  //----------------------------------------------------
+
+  
