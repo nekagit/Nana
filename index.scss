@@ -1,7 +1,7 @@
-$primary: rgba(133, 25, 40, 0.863);
+$primary: rgba(174, 0, 0, 0.381);
 $card-color: rgba(245, 150, 95, 0.926);
 $section-padding: 400px;
-$box-shadow: 4px 10px 33px 8px #000000;
+$box-shadow: 4px 10px 33px 18px rgb(0, 0, 0);
 @import "lib/bootstrap/scss/bootstrap";
 
 html, body {
@@ -9,8 +9,7 @@ html, body {
   overflow-x: hidden;
   margin: 0;
   padding: 0;
-  background-color: #a04747de;
-
+  background-color: rgba(210, 210, 210, 0.054);
 }
 #myBtn {
   display: none; /* Hidden by default */
@@ -29,8 +28,17 @@ html, body {
 }
 
 /* -------------------------------------------------------------------------------------------------------------- */
+#visb {
+  color:white!important;
+
+  &:hover {
+    color: black !important;
+  }
+}
+/* -------------------------------------------------------------------------------------------------------------- */
 
 .page-header {
+  margin-top: 21px!important;
   @include media-breakpoint-up(md) {
     margin-top: 33px;
   }
@@ -38,11 +46,13 @@ html, body {
   padding: 11px ;
   box-shadow: $box-shadow;
   background-position: 50%;
-  width: fit-content;
   margin: auto;
+  width: 80%; 
+  height: 700px;
   
 }
 .page-headerr {
+  margin-top: 21px!important;
   @include media-breakpoint-up(md) {
     margin-top: 33px;
   }
@@ -51,6 +61,7 @@ html, body {
   background-repeat: no-repeat;
   box-shadow: $box-shadow;
   background-position: 50%;
+  margin: auto;
   border-radius: 33px;
   height: 700px;
   width: 80%;
@@ -58,36 +69,40 @@ html, body {
 }
 
 #navo {
-  border-radius: 33px;
-  background-color: rgba(255, 255, 255, 0.075);
-  @include media-breakpoint-up(md) { 
-    width: 100%;
-    background-color: rgba(255, 255, 255, 0.205);
-  }
+    background-color:rgba(58, 58, 58, 0.434);
+    border-radius: 33px;  
+    padding: 0;
+    padding-bottom: 5vh;
+    margin: 0;
+    @include media-breakpoint-up(md) { 
+      padding-bottom: 2vh;
+      width: 100%;
+    }
   transition: all 0.6s;
-  &:hover {
-    background-color:rgba(255, 255, 255, 0.425);
-  }
+
 }
 
 .navbar-light .navbar-brand {
   font-size: 2.5rem;
+  color: rgba(255, 255, 255, 0.607)!important; 
   align-self: center;
   @include media-breakpoint-up(md) { 
-  font-size: 2.8rem;  
+    font-size: 2.8rem;  
   padding: 21px 42px 21px 21px;
   }
   font-family: 'Dancing Script', cursive;
-  
-  &:hover {
-    color: rgba(255, 255, 255, 0.425);
-  }
 }
 
 .nav-link{
   font-size: 1.5rem;
+  color: rgba(255, 227, 190, 0.776)!important;  
   align-self: center;
   cursor: pointer;
+  
+  &:hover {
+    color: rgba(255, 244, 231, 0.472)nt;  
+
+  }
 }
 
 a, a > span {
@@ -110,14 +125,16 @@ a:before, a:after, a > span:before, a > span:after {
  
 }
 .effect3:before {
-  left: 0;
+  left: 90%;
   bottom: 0;
-  width: 100%;
+  width: 0%;
   height: 2px;
-  background: rgba(146, 31, 56, 0.87);
+  background: antiquewhite;
   transform: translateX(-100%);
+  transition: transform 4s ease-in-out;
 }
 .effect3:hover:before {
+  width: 88%;
   transform: translateX(0);
 }
 
@@ -285,6 +302,9 @@ a:before, a:after, a > span:before, a > span:after {
 }
 
 #slikb {
+  font-weight: bold;
+  font-size: 33px;
+  font-family: 'Dancing Script', cursive;
   text-decoration: none;
 }
 /* -
@@ -347,7 +367,7 @@ a:before, a:after, a > span:before, a > span:after {
 }
 
 .profilB {
-  width: 188px;
+  width: 255px;
   height: 288px;
   margin: auto;
   display: block;
@@ -886,10 +906,14 @@ img {
 .responsive-iframe-container {
   position: relative;
   overflow: hidden;
-  width: 100%;
+  width: 80%;
   padding-top: 56.25%; /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
   min-height: 500px;
-  margin: auto;
+  margin: auto;  
+  @include media-breakpoint-up(md) { 
+    padding-bottom: 2vh;
+    width: 90%;
+  }
 }
 
 /* Then style the iframe to fit in the container div with full height and width */
